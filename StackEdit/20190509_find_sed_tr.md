@@ -2,12 +2,15 @@
 
 #### Output “ls –la” of your ~ directory into cleanup.txt
 ```console
-ls -la > cleanup.txt
+cadmin@centos-08ls -la > cleanup.txt
 ```
 #### Add a list of all files in the /var directory (and sub directories) that end in txt into cleanup.txt
 ```console
-find /
+find /var -type f -name \*.txt >> cleanup.txt
+```
 #### Remove all repeat spaces from the cleanup.txt file and create a new file called cleaned.txt
+```console
+tr -s " " < cleanup.txt > cleaned.txt
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwOTExODk3XX0=
+eyJoaXN0b3J5IjpbLTE0MTYxODQ0OTddfQ==
 -->
