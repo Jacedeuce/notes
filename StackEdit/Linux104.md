@@ -55,8 +55,8 @@ the invocation of atd.
 * export - Set export attribute for shell variables.
 
 
-### iconv
-
+## Logging
+### syslog.confmail.=info                   /dev/tty12
 
 ## User Settings
 
@@ -128,8 +128,9 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTczMzcxMywyMTI4NDIwNTQ1LC0yMT
-Q4MDcwMjYsLTExOTA1ODA5NzQsLTE3MzA2MTYzODIsNzQ3NDE5
-OTc1LC0yMDM5MzE5MDE4LC0yMDYyMjE5NTkwLC0xNTAyNzcwMT
-Y0LC05MDQxNjI4NzQsNjAwNDE4NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTY4OTc2NzQ5LC02MTE3MzM3MTMsMjEyOD
+QyMDU0NSwtMjE0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2
+MzgyLDc0NzQxOTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MC
+wtMTUwMjc3MDE2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1
+MTExODddfQ==
 -->
