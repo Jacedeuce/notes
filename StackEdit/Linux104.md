@@ -47,8 +47,8 @@ the invocation of atd.
 
 | Global | User | Use |
 |---------|-----|------|
-| /etc/bashrc | ~/.bashrc | command aliases and functions
-| /etc/profile | ~/.bash_profile | 
+| /etc/bashrc | ~/.bashrc | command aliases and functions |
+| /etc/profile | ~/.bash_profile | set environment variables |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NTg5NjkzXX0=
+eyJoaXN0b3J5IjpbMzg2NTExMTg3XX0=
 -->
