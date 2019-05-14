@@ -19,7 +19,7 @@
 
 ##### at
 
-* executes commands at a specified time. 
+* executes commands **in parallel** at a specified time. 
 
 ##### batch
 
@@ -53,9 +53,12 @@ the invocation of atd.
 | /etc/bashrc | ~/.bashrc | command aliases and functions |
 | /etc/profile | ~/.bash_profile | set environment variables |
 
+### /etc/passwd
+* `x` marks encrypted password stored in /etc/shadow
 ### /etc/shadow
 * file stores encrypted passwords
 * only root has r or w access
+
 
 ### chsh
 *change your login shell*
@@ -99,6 +102,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTE4MzM2MiwtOTA0MTYyODc0LDYwMD
+eyJoaXN0b3J5IjpbLTY3Njk0MTk5NiwtOTA0MTYyODc0LDYwMD
 QxODQ5NywzODY1MTExODddfQ==
 -->
