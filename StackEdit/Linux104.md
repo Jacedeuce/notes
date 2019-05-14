@@ -68,8 +68,11 @@ EndSection
 ### Display Manager
 * is started by the init system
 
+### xcolordepth
+* displays color depth of X Server
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY0OTI4OTEsLTkwNDE2Mjg3NCw2MD
+eyJoaXN0b3J5IjpbLTE5OTg4NjA2MTEsLTkwNDE2Mjg3NCw2MD
 A0MTg0OTcsMzg2NTExMTg3XX0=
 -->
