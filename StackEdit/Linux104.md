@@ -51,6 +51,9 @@ the invocation of atd.
 | /etc/profile | ~/.bash_profile | set environment variables |
 
 ### XDM
+*X Display Manager*
+* Set wallpaper: ``/etc/X11/xdm/Xsetup``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwNDE4NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NT
+ExMTg3XX0=
 -->
