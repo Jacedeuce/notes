@@ -15,6 +15,8 @@
 
 * execute command and replace with value
 
+### Cron
+* fields: minute, hour, day 
 ### Batch command
 
 ##### at
@@ -107,7 +109,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLT
-E1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTEx
-MTg3XX0=
+eyJoaXN0b3J5IjpbLTEzNzMzNTkxMzgsLTIwMzkzMTkwMTgsLT
+IwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0
+MTg0OTcsMzg2NTExMTg3XX0=
 -->
