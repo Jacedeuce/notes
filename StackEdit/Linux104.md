@@ -100,7 +100,7 @@ the invocation of atd.
 * access is managed by `xhost`:
 	* server access control program for X
 * ?`xcolordepth` command displays color depth for X Server
-	> xwininfo -root | grep Depth:`
+	> xwininfo -root | grep Depth
 * `~/.Xdefaults` sets user configuration changes (window size, location, color)
 
 ### xorg.conf
@@ -122,7 +122,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODI5NTU5MSwtMjE0ODA3MDI2LC0xMT
+eyJoaXN0b3J5IjpbMjEyODQyMDU0NSwtMjE0ODA3MDI2LC0xMT
 kwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQxOTk3NSwtMjAzOTMx
 OTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0MTYyOD
 c0LDYwMDQxODQ5NywzODY1MTExODddfQ==
