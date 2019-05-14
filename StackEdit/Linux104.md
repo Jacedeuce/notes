@@ -72,6 +72,9 @@ the invocation of atd.
 * file stores encrypted passwords
 * only root has r or w access
 
+### usermod
+* `-g` primary group
+* `-G` secondary group
 ### timezone
 * set by **/etc/localtime** */etc/timezone*, linked to **/usr/share/zoneinfo**
 
@@ -118,7 +121,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NDE5OTc1LC0yMDM5MzE5MDE4LC0yMD
-YyMjE5NTkwLC0xNTAyNzcwMTY0LC05MDQxNjI4NzQsNjAwNDE4
-NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTYxODc3NjU3LDc0NzQxOTk3NSwtMjAzOT
+MxOTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0MTYy
+ODc0LDYwMDQxODQ5NywzODY1MTExODddfQ==
 -->
