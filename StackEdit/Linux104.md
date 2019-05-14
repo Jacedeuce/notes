@@ -136,11 +136,14 @@ EndSection
 ## Networking
 
 ### nsswitch.conf
-* 
+* configures where the C library looks for system information (host names, user passwords).
+
+### IPv6 interface identifier
+* 64 bits
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTQ3ODY1OCw2MTAxODU5MDMsODYwMT
+eyJoaXN0b3J5IjpbMTI1MTE0MzQ5NSw2MTAxODU5MDMsODYwMT
 g4MTIzLC02MTE3MzM3MTMsMjEyODQyMDU0NSwtMjE0ODA3MDI2
 LC0xMTkwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQxOTk3NSwtMj
 AzOTMxOTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0
