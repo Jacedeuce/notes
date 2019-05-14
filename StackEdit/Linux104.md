@@ -67,6 +67,8 @@ the invocation of atd.
 
 ### X Server
 * Instances are identified by a display name like `1.`
+* access is managed by `xhost`:
+	* server access control program for X
 
 ### xorg.conf Sections
 * Sections are bracketed by **SectionName** and **EndSection**
@@ -90,6 +92,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0ODQyMTUyLC05MDQxNjI4NzQsNjAwND
-E4NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTgzOTUwNjM2MywtOTA0MTYyODc0LDYwMD
+QxODQ5NywzODY1MTExODddfQ==
 -->
