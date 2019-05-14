@@ -1,4 +1,4 @@
-
+## Shell Scripting
 
 ### Test
 
@@ -43,12 +43,27 @@ the invocation of atd.
 
 * if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
 
+
+## User Settings
+
 ### BASHRC vs PROFILE
 
 | Global | User | Use |
 |---------|-----|------|
 | /etc/bashrc | ~/.bashrc | command aliases and functions |
 | /etc/profile | ~/.bash_profile | set environment variables |
+
+
+## X
+
+### Display Manager
+* Is started by the init system
+* Start and set up the Desktop Environment
+* Handle user login
+
+### XDM
+*X Display Manager*
+* Set wallpaper: ``/etc/X11/xdm/Xsetup``
 
 ### xorg.conf Sections
 * Sections are bracketed by **SectionName** and **EndSection**
@@ -60,18 +75,17 @@ option=text
 # text
 EndSection
 ``` 
-### XDM
-*X Display Manager*
-* Set wallpaper: ``/etc/X11/xdm/Xsetup``
 
 ### xcolordepth
 * displays color depth of X Server
 
+
+## User Accessibility
 ### GOK
 * **G**NOME **O**n-screen **K**eyboard
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTU3MjA4NiwtOTA0MTYyODc0LDYwMD
-QxODQ5NywzODY1MTExODddfQ==
+eyJoaXN0b3J5IjpbLTEzNjU4NDY5OTIsLTkwNDE2Mjg3NCw2MD
+A0MTg0OTcsMzg2NTExMTg3XX0=
 -->
