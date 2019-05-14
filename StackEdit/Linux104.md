@@ -55,8 +55,11 @@ the invocation of atd.
 
 ### /etc/shadow
 * file stores encrypted passwords
-* only roo
+* only root has r or w access
 
+### chsh
+*change your login shell*
+* -s specify login shell (/bin/false will disble login)
 
 ## X
 
@@ -96,6 +99,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODY4MTQ3NCwtOTA0MTYyODc0LDYwMD
+eyJoaXN0b3J5IjpbMTQ0MzI3NTkyNiwtOTA0MTYyODc0LDYwMD
 QxODQ5NywzODY1MTExODddfQ==
 -->
