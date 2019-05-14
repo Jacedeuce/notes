@@ -65,6 +65,9 @@ the invocation of atd.
 *X Display Manager*
 * Set wallpaper: ``/etc/X11/xdm/Xsetup``
 
+### X Server
+* Instances are identified by a display name like `1.`
+
 ### xorg.conf Sections
 * Sections are bracketed by **SectionName** and **EndSection**
 ```
@@ -81,11 +84,12 @@ EndSection
 
 
 ## User Accessibility
+
 ### GOK
 * **G**NOME **O**n-screen **K**eyboard
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjU4NDY5OTIsLTkwNDE2Mjg3NCw2MD
-A0MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbNjU0ODQyMTUyLC05MDQxNjI4NzQsNjAwND
+E4NDk3LDM4NjUxMTE4N119
 -->
