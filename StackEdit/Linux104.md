@@ -78,9 +78,6 @@ the invocation of atd.
 ### usermod
 * `-g` primary group
 * `-G` secondary group
-### timezone
-* set by **/etc/localtime** */etc/timezone*, linked to **/usr/share/zoneinfo**
-
 
 ### chsh
 *change your login shell*
@@ -88,6 +85,10 @@ the invocation of atd.
 
 ### Setting the clock
 * `hwclock` *-w*, (*--systohc*) or *-s*, *--hctosys*
+
+### timezone
+* set by **/etc/localtime** */etc/timezone*, linked to **/usr/share/zoneinfo**
+* converted using standard libraries in /usr/share
 
 ## X
 
@@ -132,9 +133,9 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwMTg4MTIzLC02MTE3MzM3MTMsMjEyOD
-QyMDU0NSwtMjE0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2
-MzgyLDc0NzQxOTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MC
-wtMTUwMjc3MDE2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1
-MTExODddfQ==
+eyJoaXN0b3J5IjpbNjEwMTg1OTAzLDg2MDE4ODEyMywtNjExNz
+MzNzEzLDIxMjg0MjA1NDUsLTIxNDgwNzAyNiwtMTE5MDU4MDk3
+NCwtMTczMDYxNjM4Miw3NDc0MTk5NzUsLTIwMzkzMTkwMTgsLT
+IwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0
+MTg0OTcsMzg2NTExMTg3XX0=
 -->
