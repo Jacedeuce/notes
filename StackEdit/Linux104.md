@@ -99,6 +99,7 @@ the invocation of atd.
 * Instances are identified by a display name like `1.`
 * access is managed by `xhost`:
 	* server access control program for X
+* `xcolordepth` command displays color depth for X Server
 
 ### xorg.conf Sections
 * Sections are bracketed by **SectionName** and **EndSection**
@@ -109,11 +110,7 @@ SectionName
 option=text
 # text
 EndSection
-``` 
-
-### xcolordepth
-* displays color depth of X Server
-
+```
 
 ## User Accessibility
 
@@ -122,7 +119,8 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA2MTYzODIsNzQ3NDE5OTc1LC0yMD
-M5MzE5MDE4LC0yMDYyMjE5NTkwLC0xNTAyNzcwMTY0LC05MDQx
-NjI4NzQsNjAwNDE4NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTExOTA1ODA5NzQsLTE3MzA2MTYzODIsNz
+Q3NDE5OTc1LC0yMDM5MzE5MDE4LC0yMDYyMjE5NTkwLC0xNTAy
+NzcwMTY0LC05MDQxNjI4NzQsNjAwNDE4NDk3LDM4NjUxMTE4N1
+19
 -->
