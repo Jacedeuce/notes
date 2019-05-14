@@ -29,6 +29,8 @@ the invocation of atd.
 
 ##### permitted by the (1) /etc/at.allow and (2) /etc/at.deny
 
+
+
 ### Managing Shell Variables
 
 ##### set
@@ -105,6 +107,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLT
-kwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbLTIwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLT
+E1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTEx
+MTg3XX0=
 -->
