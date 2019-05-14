@@ -64,7 +64,12 @@ option=text
 # text
 EndSection
 ``` 
+
+### Display Manager
+* is started by the init system
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTIxOTUyMTcsLTkwNDE2Mjg3NCw2MD
+eyJoaXN0b3J5IjpbLTE4MTY0OTI4OTEsLTkwNDE2Mjg3NCw2MD
 A0MTg0OTcsMzg2NTExMTg3XX0=
 -->
