@@ -100,7 +100,7 @@ the invocation of atd.
 * access is managed by `xhost`:
 	* server access control program for X
 * `xcolordepth` command displays color depth for X Server
-* `~/.Xde
+* `~/.Xdefaults` sets user configuration changes (window size, location, color)
 
 ### xorg.conf Sections
 * Sections are bracketed by **SectionName** and **EndSection**
@@ -120,8 +120,8 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzU5MTAwOCwtMTE5MDU4MDk3NCwtMT
-czMDYxNjM4Miw3NDc0MTk5NzUsLTIwMzkzMTkwMTgsLTIwNjIy
-MTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0MTg0OT
-csMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbLTEwNjkzOTUzMzgsLTExOTA1ODA5NzQsLT
+E3MzA2MTYzODIsNzQ3NDE5OTc1LC0yMDM5MzE5MDE4LC0yMDYy
+MjE5NTkwLC0xNTAyNzcwMTY0LC05MDQxNjI4NzQsNjAwNDE4ND
+k3LDM4NjUxMTE4N119
 -->
