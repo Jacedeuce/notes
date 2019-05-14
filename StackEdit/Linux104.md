@@ -67,12 +67,17 @@ EndSection
 
 ### Display Manager
 * is started by the init system
+* Start and set up the Desktop Environment
+* 
 
 ### xcolordepth
 * displays color depth of X Server
 
+### GOK
+* **G**NOME **O**n-screen **K**eyboard
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg4NjA2MTEsLTkwNDE2Mjg3NCw2MD
-A0MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbMTg0OTA4ODcyLC05MDQxNjI4NzQsNjAwND
+E4NDk3LDM4NjUxMTE4N119
 -->
