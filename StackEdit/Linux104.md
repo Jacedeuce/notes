@@ -56,7 +56,9 @@ the invocation of atd.
 
 
 ## Logging
-### syslog.confmail.=info                   /dev/tty12
+
+### syslog.conf
+*	redirect to console: ```mail.=info (".") 	/dev/tty12```
 
 ## User Settings
 
@@ -121,6 +123,8 @@ EndSection
 ```
 * **Files** section manages **fonts**
 
+## Printing
+
 ## User Accessibility
 
 ### GOK
@@ -128,7 +132,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTc2NzQ5LC02MTE3MzM3MTMsMjEyOD
+eyJoaXN0b3J5IjpbODYwMTg4MTIzLC02MTE3MzM3MTMsMjEyOD
 QyMDU0NSwtMjE0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2
 MzgyLDc0NzQxOTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MC
 wtMTUwMjc3MDE2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1
