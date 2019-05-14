@@ -139,13 +139,14 @@ EndSection
 * configures where the C library looks for system information (host names, user passwords).
 
 ### IPv6 interface identifier
-* 64 bits
+* 64 bits 
+![Image result for ipv6 interface id](https://docs.oracle.com/cd/E23823_01/html/816-4554/figures/basic-IPv6-address.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTE0MzQ5NSw2MTAxODU5MDMsODYwMT
-g4MTIzLC02MTE3MzM3MTMsMjEyODQyMDU0NSwtMjE0ODA3MDI2
-LC0xMTkwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQxOTk3NSwtMj
-AzOTMxOTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0
-MTYyODc0LDYwMDQxODQ5NywzODY1MTExODddfQ==
+eyJoaXN0b3J5IjpbLTEwMjczOTAwMjQsNjEwMTg1OTAzLDg2MD
+E4ODEyMywtNjExNzMzNzEzLDIxMjg0MjA1NDUsLTIxNDgwNzAy
+NiwtMTE5MDU4MDk3NCwtMTczMDYxNjM4Miw3NDc0MTk5NzUsLT
+IwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkw
+NDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
 -->
