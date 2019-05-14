@@ -50,10 +50,6 @@ the invocation of atd.
 | /etc/bashrc | ~/.bashrc | command aliases and functions |
 | /etc/profile | ~/.bash_profile | set environment variables |
 
-### XDM
-*X Display Manager*
-* Set wallpaper: ``/etc/X11/xdm/Xsetup``
-
 ### xorg.conf Sections
 * Sections are bracketed by **SectionName** and **EndSection**
 ```
@@ -64,11 +60,9 @@ option=text
 # text
 EndSection
 ``` 
-
-### Display Manager
-* is started by the init system
-* Start and set up the Desktop Environment
-* 
+### XDM
+*X Display Manager*
+* Set wallpaper: ``/etc/X11/xdm/Xsetup``
 
 ### xcolordepth
 * displays color depth of X Server
@@ -78,6 +72,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTA4ODcyLC05MDQxNjI4NzQsNjAwND
-E4NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbMTExNTU3MjA4NiwtOTA0MTYyODc0LDYwMD
+QxODQ5NywzODY1MTExODddfQ==
 -->
