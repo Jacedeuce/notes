@@ -59,6 +59,9 @@ the invocation of atd.
 * file stores encrypted passwords
 * only root has r or w access
 
+### timezone
+* set by /etc/localtime /etc/timezone, linked to /usr/share/zoneinfo
+
 
 ### chsh
 *change your login shell*
@@ -102,6 +105,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Njk0MTk5NiwtOTA0MTYyODc0LDYwMD
-QxODQ5NywzODY1MTExODddfQ==
+eyJoaXN0b3J5IjpbLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MD
+A0MTg0OTcsMzg2NTExMTg3XX0=
 -->
