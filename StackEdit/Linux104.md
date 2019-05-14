@@ -84,6 +84,8 @@ the invocation of atd.
 *change your login shell*
 * `-s` specify login shell (/bin/false will disble login)
 
+### Setting the clock
+* 
 ## X
 
 ### Display Manager
@@ -94,6 +96,9 @@ the invocation of atd.
 ### XDM
 *X Display Manager*
 * Set wallpaper: ``/etc/X11/xdm/Xsetup``
+
+### GDM
+* /etc/gdm/custom.conf or `gdmsetup`- set greeting
 
 ### X Server
 * Instances are identified by a display name like `1.`
@@ -122,8 +127,8 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODQyMDU0NSwtMjE0ODA3MDI2LC0xMT
-kwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQxOTk3NSwtMjAzOTMx
-OTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0MTYyOD
-c0LDYwMDQxODQ5NywzODY1MTExODddfQ==
+eyJoaXN0b3J5IjpbMzgwNTQxMjgyLDIxMjg0MjA1NDUsLTIxND
+gwNzAyNiwtMTE5MDU4MDk3NCwtMTczMDYxNjM4Miw3NDc0MTk5
+NzUsLTIwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLTE1MDI3NzAxNj
+QsLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
 -->
