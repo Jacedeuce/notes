@@ -53,7 +53,11 @@ the invocation of atd.
 ### XDM
 *X Display Manager*
 * Set wallpaper: ``/etc/X11/xdm/Xsetup``
+
+### xorg.conf Sections
+```
+Sec 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NT
-ExMTg3XX0=
+eyJoaXN0b3J5IjpbNDc4Mzk0NjAwLC05MDQxNjI4NzQsNjAwND
+E4NDk3LDM4NjUxMTE4N119
 -->
