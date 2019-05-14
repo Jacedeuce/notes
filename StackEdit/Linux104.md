@@ -1,19 +1,19 @@
 ## Shell Scripting
 
+### IF statement syntax
+
+* if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
+
+### function
+
+* creates functions
+
 ### Test
 
 * `-e` test if file exists
 * `-f` test if file exists and is a regular file
 * `=` String comparison
 * `-eq` Integer comparison
-
-### function
-
-* creates functions
-
-### $() 
-
-* execute command and replace with value
 
 ### Cron
 * fields: minute, hour, day of month, month, day of week, command
@@ -45,9 +45,8 @@ the invocation of atd.
 
 * export - Set export attribute for shell variables.
 
-### IF statement syntax
 
-* if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
+### iconv
 
 
 ## User Settings
@@ -111,7 +110,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5ODYxOTM4LC0yMDM5MzE5MDE4LC0yMD
-YyMjE5NTkwLC0xNTAyNzcwMTY0LC05MDQxNjI4NzQsNjAwNDE4
-NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTEwNDYxMTA2MDgsLTIwMzkzMTkwMTgsLT
+IwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0
+MTg0OTcsMzg2NTExMTg3XX0=
 -->
