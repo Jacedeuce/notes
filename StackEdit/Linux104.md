@@ -49,6 +49,8 @@ the invocation of atd.
 |---------|-----|------|
 | /etc/bashrc | ~/.bashrc | command aliases and functions |
 | /etc/profile | ~/.bash_profile | set environment variables |
+
+### XDM
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbNjAwNDE4NDk3LDM4NjUxMTE4N119
 -->
