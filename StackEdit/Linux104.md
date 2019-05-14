@@ -137,6 +137,22 @@ EndSection
 
 ### nsswitch.conf
 * configures where the C library looks for system information (host names, user passwords).
+	* The following files are read when "files" source is specified for
+       respective databases:
+
+         **aliases** _/etc/aliases_
+         **ethers** _/etc/ethers_
+         **group** _/etc/group_
+         !!!! **hosts** _/etc/hosts_
+         **initgroups** _/etc/group_
+         **netgroup** _/etc/netgroup_
+         **networks** _/etc/networks_
+         **passwd** _/etc/passwd_
+         **protocols** _/etc/protocols_
+         **publickey** _/etc/publickey_
+         **rpc** _/etc/rpc_
+         **services** _/etc/services_
+         **shadow** _/etc/shadow_
 
 ### IPv6 interface identifier
 * 64 bits 
@@ -144,9 +160,10 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjczOTAwMjQsNjEwMTg1OTAzLDg2MD
-E4ODEyMywtNjExNzMzNzEzLDIxMjg0MjA1NDUsLTIxNDgwNzAy
-NiwtMTE5MDU4MDk3NCwtMTczMDYxNjM4Miw3NDc0MTk5NzUsLT
-IwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkw
-NDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbMTgxNTIxMDkyMSwtMTAyNzM5MDAyNCw2MT
+AxODU5MDMsODYwMTg4MTIzLC02MTE3MzM3MTMsMjEyODQyMDU0
+NSwtMjE0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2MzgyLD
+c0NzQxOTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MCwtMTUw
+Mjc3MDE2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1MTExOD
+ddfQ==
 -->
