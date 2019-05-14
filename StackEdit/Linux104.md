@@ -60,7 +60,7 @@ the invocation of atd.
 * only root has r or w access
 
 ### timezone
-* set by **/etc/localtime** /etc/timezone, linked to /usr/share/zoneinfo
+* set by **/etc/localtime** */etc/timezone*, linked to **/usr/share/zoneinfo**
 
 
 ### chsh
@@ -105,6 +105,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDM1MTUwMCwtMTUwMjc3MDE2NCwtOT
-A0MTYyODc0LDYwMDQxODQ5NywzODY1MTExODddfQ==
+eyJoaXN0b3J5IjpbLTIwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLT
+kwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
 -->
