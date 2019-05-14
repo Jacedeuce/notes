@@ -59,6 +59,8 @@ the invocation of atd.
 
 ### syslog.conf
 *	redirect to console: ```mail.=info (".") 	/dev/tty12```
+### journald
+* /etc/system/journald.conf
 
 ## User Settings
 
@@ -133,9 +135,9 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMTg1OTAzLDg2MDE4ODEyMywtNjExNz
-MzNzEzLDIxMjg0MjA1NDUsLTIxNDgwNzAyNiwtMTE5MDU4MDk3
-NCwtMTczMDYxNjM4Miw3NDc0MTk5NzUsLTIwMzkzMTkwMTgsLT
-IwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0
-MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbLTE4MTMzOTM1MjIsNjEwMTg1OTAzLDg2MD
+E4ODEyMywtNjExNzMzNzEzLDIxMjg0MjA1NDUsLTIxNDgwNzAy
+NiwtMTE5MDU4MDk3NCwtMTczMDYxNjM4Miw3NDc0MTk5NzUsLT
+IwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkw
+NDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
 -->
