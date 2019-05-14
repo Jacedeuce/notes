@@ -85,7 +85,8 @@ the invocation of atd.
 * `-s` specify login shell (/bin/false will disble login)
 
 ### Setting the clock
-* 
+* `hwclock` *-w*, (*--systohc*) 
+
 ## X
 
 ### Display Manager
@@ -127,8 +128,9 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNTQxMjgyLDIxMjg0MjA1NDUsLTIxND
-gwNzAyNiwtMTE5MDU4MDk3NCwtMTczMDYxNjM4Miw3NDc0MTk5
-NzUsLTIwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLTE1MDI3NzAxNj
-QsLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbLTExNzg0MzA4NTEsMjEyODQyMDU0NSwtMj
+E0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQx
+OTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MD
+E2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1MTExODddfQ==
+
 -->
