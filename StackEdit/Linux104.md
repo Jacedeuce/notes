@@ -8,12 +8,20 @@
 
 * creates functions
 
+### $() 
+
+* execute command and replace with value
+
 ### Test
 
 * `-e` test if file exists
 * `-f` test if file exists and is a regular file
 * `=` String comparison
 * `-eq` Integer comparison
+
+### iconv
+*Convert encoding of given files from one encoding to another*
+* iconv **-f** _encoding_ **-t** _encoding inputfile_
 
 ### Cron
 * fields: minute, hour, day of month, month, day of week, command
@@ -110,7 +118,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYxMTA2MDgsLTIwMzkzMTkwMTgsLT
-IwNjIyMTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0
-MTg0OTcsMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbNzQ3NDE5OTc1LC0yMDM5MzE5MDE4LC0yMD
+YyMjE5NTkwLC0xNTAyNzcwMTY0LC05MDQxNjI4NzQsNjAwNDE4
+NDk3LDM4NjUxMTE4N119
 -->
