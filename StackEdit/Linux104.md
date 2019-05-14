@@ -53,13 +53,17 @@ the invocation of atd.
 | /etc/bashrc | ~/.bashrc | command aliases and functions |
 | /etc/profile | ~/.bash_profile | set environment variables |
 
+### /etc/shadow
+* file stores encrypted passwords
+* only roo
+
 
 ## X
 
 ### Display Manager
 * Is started by the init system
 * Start and set up the Desktop Environment
-* Handle user login
+* Handle user login after system startup
 
 ### XDM
 *X Display Manager*
@@ -92,6 +96,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTUwNjM2MywtOTA0MTYyODc0LDYwMD
+eyJoaXN0b3J5IjpbLTc2ODY4MTQ3NCwtOTA0MTYyODc0LDYwMD
 QxODQ5NywzODY1MTExODddfQ==
 -->
