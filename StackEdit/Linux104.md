@@ -99,7 +99,8 @@ the invocation of atd.
 * Instances are identified by a display name like `1.`
 * access is managed by `xhost`:
 	* server access control program for X
-* `xcolordepth` command displays color depth for X Server
+* ?`xcolordepth` command displays color depth for X Server
+	> xwininfo -root | grep Depth:`
 * `~/.Xdefaults` sets user configuration changes (window size, location, color)
 
 ### xorg.conf
@@ -121,8 +122,8 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDgwNzAyNiwtMTE5MDU4MDk3NCwtMT
-czMDYxNjM4Miw3NDc0MTk5NzUsLTIwMzkzMTkwMTgsLTIwNjIy
-MTk1OTAsLTE1MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0MTg0OT
-csMzg2NTExMTg3XX0=
+eyJoaXN0b3J5IjpbMTkyODI5NTU5MSwtMjE0ODA3MDI2LC0xMT
+kwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQxOTk3NSwtMjAzOTMx
+OTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0MTYyOD
+c0LDYwMDQxODQ5NywzODY1MTExODddfQ==
 -->
