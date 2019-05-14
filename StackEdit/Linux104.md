@@ -2,10 +2,10 @@
 
 ### Test
 
-* -e test if file exists
-* -f test if file exists and is a regular file
-* = String comparison
-* -eq Integer comparison
+* `-e` test if file exists
+* `-f` test if file exists and is a regular file
+* `=` String comparison
+* `-eq` Integer comparison
 
 ### function
 
@@ -23,7 +23,7 @@
 
 ##### batch
 
-* executes commands when system load levels permit; in other words, 
+* **sequentially** executes commands when system load levels permit; in other words, 
 when the load average drops below 0.8, or the value specified in 
 the invocation of atd. 
 
@@ -59,7 +59,7 @@ the invocation of atd.
 
 ### chsh
 *change your login shell*
-* -s specify login shell (/bin/false will disble login)
+* `-s` specify login shell (/bin/false will disble login)
 
 ## X
 
@@ -99,6 +99,6 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzI3NTkyNiwtOTA0MTYyODc0LDYwMD
+eyJoaXN0b3J5IjpbMTY0OTE4MzM2MiwtOTA0MTYyODc0LDYwMD
 QxODQ5NywzODY1MTExODddfQ==
 -->
