@@ -157,13 +157,15 @@ EndSection
 ### IPv6 interface identifier
 * 64 bits 
 ![Image result for ipv6 interface id](https://docs.oracle.com/cd/E23823_01/html/816-4554/figures/basic-IPv6-address.png)
+### TCP Wrapper Encryption
+* TCPD checks `hosts.allow` and `hosts.deny` for access control to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTIxMDkyMSwtMTAyNzM5MDAyNCw2MT
-AxODU5MDMsODYwMTg4MTIzLC02MTE3MzM3MTMsMjEyODQyMDU0
-NSwtMjE0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2MzgyLD
-c0NzQxOTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MCwtMTUw
-Mjc3MDE2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1MTExOD
-ddfQ==
+eyJoaXN0b3J5IjpbLTE0NzkxMzczMDgsLTEwMjczOTAwMjQsNj
+EwMTg1OTAzLDg2MDE4ODEyMywtNjExNzMzNzEzLDIxMjg0MjA1
+NDUsLTIxNDgwNzAyNiwtMTE5MDU4MDk3NCwtMTczMDYxNjM4Mi
+w3NDc0MTk5NzUsLTIwMzkzMTkwMTgsLTIwNjIyMTk1OTAsLTE1
+MDI3NzAxNjQsLTkwNDE2Mjg3NCw2MDA0MTg0OTcsMzg2NTExMT
+g3XX0=
 -->
