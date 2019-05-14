@@ -45,10 +45,10 @@ the invocation of atd.
 
 ### BASHRC vs PROFILE
 
-| Global | User |
-|---------|-----|
-|/etc/bashrc | ~/.bashrc
-/etc/profile | ~/.bash_profile
+| Global | User | Use |
+|---------|-----|------|
+| /etc/bashrc | ~/.bashrc | command aliases and functions
+| /etc/profile | ~/.bash_profile | 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ2MTM4ODVdfQ==
+eyJoaXN0b3J5IjpbODQ4NTg5NjkzXX0=
 -->
