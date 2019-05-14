@@ -55,9 +55,16 @@ the invocation of atd.
 * Set wallpaper: ``/etc/X11/xdm/Xsetup``
 
 ### xorg.conf Sections
+* Sections are bracketed by **SectionName** and **EndSection**
 ```
-Sec 
+SectionName
+# text
+# text
+option=text
+# text
+EndSection
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4Mzk0NjAwLC05MDQxNjI4NzQsNjAwND
-E4NDk3LDM4NjUxMTE4N119
+eyJoaXN0b3J5IjpbLTEwNTIxOTUyMTcsLTkwNDE2Mjg3NCw2MD
+A0MTg0OTcsMzg2NTExMTg3XX0=
 -->
