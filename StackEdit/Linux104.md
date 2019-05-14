@@ -85,7 +85,7 @@ the invocation of atd.
 * `-s` specify login shell (/bin/false will disble login)
 
 ### Setting the clock
-* `hwclock` *-w*, (*--systohc*) 
+* `hwclock` *-w*, (*--systohc*) or *-s*, *--hctosys*
 
 ## X
 
@@ -128,9 +128,8 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg0MzA4NTEsMjEyODQyMDU0NSwtMj
-E0ODA3MDI2LC0xMTkwNTgwOTc0LC0xNzMwNjE2MzgyLDc0NzQx
-OTk3NSwtMjAzOTMxOTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MD
-E2NCwtOTA0MTYyODc0LDYwMDQxODQ5NywzODY1MTExODddfQ==
-
+eyJoaXN0b3J5IjpbLTYxMTczMzcxMywyMTI4NDIwNTQ1LC0yMT
+Q4MDcwMjYsLTExOTA1ODA5NzQsLTE3MzA2MTYzODIsNzQ3NDE5
+OTc1LC0yMDM5MzE5MDE4LC0yMDYyMjE5NTkwLC0xNTAyNzcwMT
+Y0LC05MDQxNjI4NzQsNjAwNDE4NDk3LDM4NjUxMTE4N119
 -->
