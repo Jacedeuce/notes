@@ -26,6 +26,7 @@
 ### Cron
 * fields: minute, hour, day of month, month, day of week, command
 `*	*	*	*	*	command`
+* **/etc/crontab**
 
 ### Batch command
 
@@ -121,7 +122,7 @@ EndSection
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODc3NjU3LDc0NzQxOTk3NSwtMjAzOT
-MxOTAxOCwtMjA2MjIxOTU5MCwtMTUwMjc3MDE2NCwtOTA0MTYy
-ODc0LDYwMDQxODQ5NywzODY1MTExODddfQ==
+eyJoaXN0b3J5IjpbLTE3MzA2MTYzODIsNzQ3NDE5OTc1LC0yMD
+M5MzE5MDE4LC0yMDYyMjE5NTkwLC0xNTAyNzcwMTY0LC05MDQx
+NjI4NzQsNjAwNDE4NDk3LDM4NjUxMTE4N119
 -->
