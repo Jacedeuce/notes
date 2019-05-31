@@ -21,7 +21,9 @@ For the ERD on the above, how would you:
 
 #### 1. Get all users whose age is greater than 35?
 
-  ``` SELECT handle FROM users WHERE age
+```SQL
+  SELECT handle FROM users WHERE age > 35
+```
   
 
 #### 2. Insert a new user whose first name is ‘Jonathan’ and last name is ‘Smith’? Have created_at be the current time.
@@ -186,5 +188,5 @@ Once you do the four queries above, please check with at least one or two other 
 
 #### 10. Write a single query that retrieves all the sites that each client owns. Group the results so that each row shows a new client. It will become clearer when you add a new field called 'sites' that has all the sites that the client owns. (HINT: use GROUP_CONCAT)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Njg1ODE0MV19
+eyJoaXN0b3J5IjpbLTczNjYyNzQxN119
 -->
