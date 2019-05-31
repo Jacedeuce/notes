@@ -28,7 +28,9 @@ For the ERD on the above, how would you:
 
 #### 2. Insert a new user whose first name is ‘Jonathan’ and last name is ‘Smith’? Have created_at be the current time.
 
-  
+ ```SQL
+ INSERT INTO users (first_name, last_name)
+ VALUES ('Jonathan', 'Smith')
   
 
 #### 3. Delete all users whose user records were created after August 1st 2010?
@@ -188,5 +190,5 @@ Once you do the four queries above, please check with at least one or two other 
 
 #### 10. Write a single query that retrieves all the sites that each client owns. Group the results so that each row shows a new client. It will become clearer when you add a new field called 'sites' that has all the sites that the client owns. (HINT: use GROUP_CONCAT)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjYyNzQxN119
+eyJoaXN0b3J5IjpbNDUwNTUyODQ4XX0=
 -->
