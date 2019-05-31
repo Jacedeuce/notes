@@ -22,7 +22,7 @@ For the ERD on the above, how would you:
 #### 1. Get all users whose age is greater than 35?
 
 ```SQL
-  SELECT handle FROM users WHERE age > 35
+  SELECT handle FROM users WHERE age > 35;
 ```
   
 
@@ -30,14 +30,14 @@ For the ERD on the above, how would you:
 
 ```SQL
  INSERT INTO users (first_name, last_name)
- VALUES ('Jonathan', 'Smith')
+ VALUES ('Jonathan', 'Smith');
 ```
   
 
 #### 3. Delete all users whose user records were created after August 1st 2010?
 
 ```SQL
-DELETE FROM users WHERE created_at > '2010-08-01'
+DELETE FROM users WHERE created_at > '2010-08-01';
 ```
   
   
@@ -46,8 +46,9 @@ DELETE FROM users WHERE created_at > '2010-08-01'
 
 ```SQL
 UPDATE users
-SET first_name = 'Coding', last_name =
-WHERE id = 3  
+SET first_name = 'Coding', last_name = 'Dojo', age = 7
+WHERE id = 3;  
+```
 
 Once you do the four queries above, please check with at least one or two other groups before working on the following assignments.
 
@@ -197,5 +198,5 @@ Once you do the four queries above, please check with at least one or two other 
 
 #### 10. Write a single query that retrieves all the sites that each client owns. Group the results so that each row shows a new client. It will become clearer when you add a new field called 'sites' that has all the sites that the client owns. (HINT: use GROUP_CONCAT)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxMTU4OTU1XX0=
+eyJoaXN0b3J5IjpbNjI4OTI1NDA4XX0=
 -->
