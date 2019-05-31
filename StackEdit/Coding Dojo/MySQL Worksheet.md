@@ -36,6 +36,8 @@ For the ERD on the above, how would you:
 
 #### 3. Delete all users whose user records were created after August 1st 2010?
 
+```SQL
+DELETE FROM users WHERE created_at > 
   
   
 
@@ -191,5 +193,5 @@ Once you do the four queries above, please check with at least one or two other 
 
 #### 10. Write a single query that retrieves all the sites that each client owns. Group the results so that each row shows a new client. It will become clearer when you add a new field called 'sites' that has all the sites that the client owns. (HINT: use GROUP_CONCAT)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzczNTIxNl19
+eyJoaXN0b3J5IjpbLTE0NTg4NjYwNTJdfQ==
 -->
