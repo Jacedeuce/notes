@@ -44,7 +44,10 @@ DELETE FROM users WHERE created_at > '2010-08-01'
 
 #### 4. Update user record (id: 3) so that first_name is ‘Coding’ and last name ‘Dojo’. Also update it so that the age is set as 7. Have updated_at automatically update to the current time.
 
-  
+```SQL
+UPDATE users
+SET first_name = 'Coding', last_name =
+WHERE id = 3  
 
 Once you do the four queries above, please check with at least one or two other groups before working on the following assignments.
 
@@ -194,5 +197,5 @@ Once you do the four queries above, please check with at least one or two other 
 
 #### 10. Write a single query that retrieves all the sites that each client owns. Group the results so that each row shows a new client. It will become clearer when you add a new field called 'sites' that has all the sites that the client owns. (HINT: use GROUP_CONCAT)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMxMzA2ODhdfQ==
+eyJoaXN0b3J5IjpbNjQxMTU4OTU1XX0=
 -->
