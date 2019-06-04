@@ -16,7 +16,8 @@
 	def index():
 		return render_template("index.html")
 
-	if 
+	if __name__=="__main__":
+		app.run(debug=True)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzM1NTU4MV19
+eyJoaXN0b3J5IjpbMjQyMjgzNjI0XX0=
 -->
