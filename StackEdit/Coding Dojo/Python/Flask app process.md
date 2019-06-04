@@ -19,6 +19,9 @@
 
 	if __name__=="__main__":
 		app.run(debug=True)
+	```
+8. create `templates\index.html`
+9. create `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NDYwMTk2LDI0MjI4MzYyNF19
+eyJoaXN0b3J5IjpbODQ0ODI0NjMzLDI0MjI4MzYyNF19
 -->
