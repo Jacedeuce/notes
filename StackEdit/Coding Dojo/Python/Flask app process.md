@@ -22,6 +22,9 @@
 	```
 8. create `templates\index.html`
 9. create `static\css\styles.css`
+	add
+	`<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTEzMDYxLDI0MjI4MzYyNF19
+eyJoaXN0b3J5IjpbLTE4ODUzNDM1MjUsMTA4OTEzMDYxLDI0Mj
+I4MzYyNF19
 -->
