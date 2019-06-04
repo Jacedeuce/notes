@@ -7,7 +7,8 @@
 3. `conda activate CD`
 4. `python -m venv {project_name+Env}`
 5. `{project_name+Env}\Scripts\activate`
-6. create _`app.py`_
+6. `pip install flask`
+7. create _`app.py`_
 	```python
 	from flask import Flask, render_template
 	app = Flask(__name__)
@@ -19,5 +20,5 @@
 	if __name__=="__main__":
 		app.run(debug=True)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyMjgzNjI0XX0=
+eyJoaXN0b3J5IjpbNTQ4NDYwMTk2LDI0MjI4MzYyNF19
 -->
