@@ -21,7 +21,7 @@
 		app.run(debug=True)
 	```
 8. create `templates\index.html`
-9. create `
+9. create `static\css\styles.css`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0ODI0NjMzLDI0MjI4MzYyNF19
+eyJoaXN0b3J5IjpbMTA4OTEzMDYxLDI0MjI4MzYyNF19
 -->
