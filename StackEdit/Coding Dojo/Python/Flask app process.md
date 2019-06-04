@@ -8,9 +8,15 @@
 4. `python -m venv {project_name+Env}`
 5. `{project_name+Env}\Scripts\activate`
 6. create _`app.py`_
-	`from flask import Flask, render_template`
+	```python
+	from flask import Flask, render_template
+	app = Flask(__name__)
 	
+	@app.route("/")
+	def index():
+		return render_template("index.html")
 
+	if 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNTQxNDEyXX0=
+eyJoaXN0b3J5IjpbLTUzNzM1NTU4MV19
 -->
