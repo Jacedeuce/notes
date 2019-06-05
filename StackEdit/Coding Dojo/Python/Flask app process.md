@@ -8,7 +8,7 @@
 4. `python -m venv {project_name+Env}`
 5. `{project_name+Env}\Scripts\activate`
 6. `pip install flask`
-7. create _`app.py`_
+7. ___create___ _`app.py`_
 	```python
 	from flask import Flask, render_template
 	app = Flask(__name__)
@@ -20,11 +20,12 @@
 	if __name__=="__main__":
 		app.run(debug=True)
 	```
-8. create `templates\index.html`
-9. create `static\css\styles.css`
+8. ___create___ `templates\index.html`
+9. ___create___ `static\css\styles.css`
 	add
 	`<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"` 
+10. ___create___ initial packages list `pip freeze > requirements.txt`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODUzNDM1MjUsMTA4OTEzMDYxLDI0Mj
-I4MzYyNF19
+eyJoaXN0b3J5IjpbMTAyODQ2MDI2NywtMTg4NTM0MzUyNSwxMD
+g5MTMwNjEsMjQyMjgzNjI0XX0=
 -->
