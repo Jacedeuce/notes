@@ -24,8 +24,10 @@
 9. ___create___ `static\css\styles.css`
 	add
 	`<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">` 
+	`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
 10. ___create___ initial packages list `pip freeze > requirements.txt`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM3MTI5NjMsMTAyODQ2MDI2NywtMT
-g4NTM0MzUyNSwxMDg5MTMwNjEsMjQyMjgzNjI0XX0=
+eyJoaXN0b3J5IjpbLTEyNjc4MzA5ODQsLTExNDM3MTI5NjMsMT
+AyODQ2MDI2NywtMTg4NTM0MzUyNSwxMDg5MTMwNjEsMjQyMjgz
+NjI0XX0=
 -->
