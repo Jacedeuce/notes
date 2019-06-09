@@ -77,13 +77,16 @@ def index(request):
 <img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/djangoStructure_04.PNG" width="200" height="300" />`
 
 ### Link CSS and JS files to html
+##### Note: I am calling my css file `styles.css`
 ```html
-{% load static %}
-      <link rel="stylesheet" href="{% static 'app_name/css/style.css' %}">    
-      <script src="{% static 'app_name/js/script.js' %}"></script>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'app_name/css/styles.css' %}">
+    <script src="{% static 'app_name/js/script.js' %}"></script>
+</head>
       ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NjAxMjg4NSwyMTE3MTk2MDMzLDc2Nz
-cxMjg2OSw4MDQ5NjIxODgsNDA4MTY2NzYxLDE1Mzk5MzM0MTYs
-MjA3MjUyNTQ4NywtNjAxODgzMjE2LC0xOTE4NTk0NDI5XX0=
+eyJoaXN0b3J5IjpbMzU3NTIwMTg1LDIxMTcxOTYwMzMsNzY3Nz
+EyODY5LDgwNDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMzQxNiwy
+MDcyNTI1NDg3LC02MDE4ODMyMTYsLTE5MTg1OTQ0MjldfQ==
 -->
