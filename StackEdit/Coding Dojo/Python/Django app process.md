@@ -73,10 +73,17 @@ def index(request):
 (djangoServeEnv) C:\....\{project_name}\apps\{app_name}> cd ..\..
 (djangoServeEnv) C:\....\{project_name}> python manage.py runserver
 ```
+### Project Structure
+<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/djangoStructure_04.PNG" width="200" height="300" />`
 
-<img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/djangoStructure_04.PNG"
+### Link CSS and JS files to html
+```html
+{% load static %}
+      <link rel="stylesheet" href="{% static 'app_name/css/style.css' %}">    
+      <script src="{% static 'app_name/js/script.js' %}"></script>
+      ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NTc3NDM1LDIxMTcxOTYwMzMsNzY3Nz
-EyODY5LDgwNDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMzQxNiwy
-MDcyNTI1NDg3LC02MDE4ODMyMTYsLTE5MTg1OTQ0MjldfQ==
+eyJoaXN0b3J5IjpbLTM1NjAxMjg4NSwyMTE3MTk2MDMzLDc2Nz
+cxMjg2OSw4MDQ5NjIxODgsNDA4MTY2NzYxLDE1Mzk5MzM0MTYs
+MjA3MjUyNTQ4NywtNjAxODgzMjE2LC0xOTE4NTk0NDI5XX0=
 -->
