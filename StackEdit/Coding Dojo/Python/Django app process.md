@@ -19,8 +19,12 @@ C:\....django\django_intro>`djangoServeEnv\Scripts\activate
 ```console
 C:\....django\django_intro\{project_name}> cd apps
 C:\....\{project_name}\apps> python ../manage.py startapp your_app_name_here
+C:\....\{project_name}\apps> nul>urls.py ## for MAC or LINUX use > touch urls.py
 ```
 
+### Configure the route to your app
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4NzUxMzkwXX0=
+eyJoaXN0b3J5IjpbNDkyMTA0NTU4XX0=
 -->
