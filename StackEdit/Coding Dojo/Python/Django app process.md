@@ -74,9 +74,10 @@ def index(request):
 (djangoServeEnv) C:\....\{project_name}> python manage.py runserver
 ```
 
-!](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/djangoStructure_04.PNG)
+![](https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/djangoStructure_04.PNG | width=50
+)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MzA1MDg2LDc2NzcxMjg2OSw4MDQ5Nj
-IxODgsNDA4MTY2NzYxLDE1Mzk5MzM0MTYsMjA3MjUyNTQ4Nywt
-NjAxODgzMjE2LC0xOTE4NTk0NDI5XX0=
+eyJoaXN0b3J5IjpbMjExNzE5NjAzMyw3Njc3MTI4NjksODA0OT
+YyMTg4LDQwODE2Njc2MSwxNTM5OTMzNDE2LDIwNzI1MjU0ODcs
+LTYwMTg4MzIxNiwtMTkxODU5NDQyOV19
 -->
