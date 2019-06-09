@@ -15,7 +15,12 @@ C:\....django\django_intro>`djangoServeEnv\Scripts\activate
 ```
 
 ### Create first app
-* ___create___
+* ___create___ app with `manage.py` _startapp_
+```console
+C:\....django\django_intro\{project_name}> cd apps
+C:\....\{project_name}\apps> python ../manage.py startapp your_app_name_here
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzQ4MjIyNV19
+eyJoaXN0b3J5IjpbNzE4NzUxMzkwXX0=
 -->
