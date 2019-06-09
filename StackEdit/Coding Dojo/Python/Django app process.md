@@ -1,25 +1,28 @@
 ## Steps to create new Django project/app
+
+I am using __djangoServEnv__ as my environment name
+Sub
 ### Set up the project
 * ___activate___ environment , create a project
 ```console
 C:\....django\django_intro> djangoServeEnv\Scripts\activate
-(djangoServeEnv) C:\....django\django_intro> pip install django==1.10
-(djangoServeEnv) C:\....django\django_intro> django-admin startproject {project_name}
-(djangoServeEnv) C:\....django\django_intro\> cd your_project_name_here
-(djangoServeEnv) C:\....django\django_intro\{project_name}> python manage.py runserver
+(djangoServeEnv) C:\....\django\django_intro> pip install django==1.10
+(djangoServeEnv) C:\....\django\django_intro> django-admin startproject {project_name}
+(djangoServeEnv) C:\....\django\django_intro\> cd your_project_name_here
+(djangoServeEnv) C:\....\django_intro\{project_name}> python manage.py runserver
 ```
 * ___test___ the server at http://localhost:8000/ 
 * _ctrl/cmd + c_ to shutdown the server
 * ___create___ apps folder
 ```console
-(djangoServeEnv) C:\....django\django_intro\{project_name}> mkdir apps
+(djangoServeEnv) C:\....\django_intro\{project_name}> mkdir apps
 ```
 
 ### Create first app
 * ___create___ app with `manage.py` _startapp_
 ```console
-(djangoServeEnv) C:\....django\django_intro\{project_name}> cd apps
-(djangoServeEnv) C:\....\{project_name}\apps> python ../manage.py startapp your_app_name_here
+(djangoServeEnv) C:\....\django_intro\{project_name}> cd apps
+(djangoServeEnv) C:\....\{project_name}\apps> python ..\manage.py startapp {app_name}
 (djangoServeEnv) C:\....\{project_name}\apps> nul>urls.py ## for MAC or LINUX use > touch urls.py
 ```
 
@@ -62,5 +65,5 @@ def index(request):
 ```
 * ___test___ the server again at http://localhost:8000/ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzOTgwNjMyXX0=
+eyJoaXN0b3J5IjpbLTE3NTI5MTIyMjRdfQ==
 -->
