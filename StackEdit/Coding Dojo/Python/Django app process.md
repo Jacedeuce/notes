@@ -8,7 +8,7 @@ C:\....django\django_intro>`djangoServeEnv\Scripts\activate
 (djangoServeEnv) C:\....django\django_intro\> cd your_project_name_here
 (djangoServeEnv) C:\....django\django_intro\{project_name}> python manage.py runserver
 ```
-* confirm page loads at http://localhost:8000/
+* confirm page loads at http://localhost:8000/ _ctrl/cmd + c_ t
 * ___create___ apps folder
 ```console
 (djangoServeEnv) C:\....django\django_intro\{project_name}> mkdir apps
@@ -53,7 +53,12 @@ urlpatterns = [
     url(r'^$', views.index),
 ]
 ```
-* ___modify app level views
+* ___add___ app level views in  _...\\{project_name}\\apps\\{app_name}\\views.py_
+```python
+from django.shortcuts import render, HttpResponse
+def index(request):
+    return HttpResponse("this is the equivalent of @app.route('/')!")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjQ5NTc4N119
+eyJoaXN0b3J5IjpbMjEzMTgwODkwMV19
 -->
