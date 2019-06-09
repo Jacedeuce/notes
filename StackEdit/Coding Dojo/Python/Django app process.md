@@ -70,11 +70,11 @@ def index(request):
 ```
 * ___test___ the server again at http://localhost:8000/ 
 ```console
-(djangoServeEnv) C:\....\{project_name}\apps> cd ..
+(djangoServeEnv) C:\....\{project_name}\apps\{app_name}> cd ..\..
 (djangoServeEnv) C:\....\{project_name}> python manage.py runserver
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0OTYyMTg4LDQwODE2Njc2MSwxNTM5OT
-MzNDE2LDIwNzI1MjU0ODcsLTYwMTg4MzIxNiwtMTkxODU5NDQy
-OV19
+eyJoaXN0b3J5IjpbNzY3NzEyODY5LDgwNDk2MjE4OCw0MDgxNj
+Y3NjEsMTUzOTkzMzQxNiwyMDcyNTI1NDg3LC02MDE4ODMyMTYs
+LTE5MTg1OTQ0MjldfQ==
 -->
