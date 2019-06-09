@@ -52,6 +52,7 @@ urlpatterns = [
 ```
 * ___add___ app level `urlpatterns` list in _...\\{project_name}\\apps\\{app_name}\\urls.py_
 ```python
+## {app_name} ##
 from django.conf.urls import url
 from . import views
                     
@@ -61,11 +62,12 @@ urlpatterns = [
 ```
 * ___add___ app level views in  _...\\{project_name}\\apps\\{app_name}\\views.py_
 ```python
+## {app name} ##
 from django.shortcuts import render, HttpResponse
 def index(request):
     return HttpResponse("this is the equivalent of @app.route('/')!")
 ```
 * ___test___ the server again at http://localhost:8000/ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg1OTQ0MjldfQ==
+eyJoaXN0b3J5IjpbLTYwMTg4MzIxNiwtMTkxODU5NDQyOV19
 -->
