@@ -1,4 +1,4 @@
-## Steps to create new Django project
+## Steps to create new Django project/app
 ### Set up the project
 * ___activate___ environment , create a project
 ```console
@@ -8,7 +8,8 @@ C:\....django\django_intro>`djangoServeEnv\Scripts\activate
 (djangoServeEnv) C:\....django\django_intro\> cd your_project_name_here
 (djangoServeEnv) C:\....django\django_intro\{project_name}> python manage.py runserver
 ```
-* confirm page loads at http://localhost:8000/ _ctrl/cmd + c_ t
+* ___test___ the server at http://localhost:8000/ 
+* _ctrl/cmd + c_ to shutdown the server
 * ___create___ apps folder
 ```console
 (djangoServeEnv) C:\....django\django_intro\{project_name}> mkdir apps
@@ -59,6 +60,7 @@ from django.shortcuts import render, HttpResponse
 def index(request):
     return HttpResponse("this is the equivalent of @app.route('/')!")
 ```
+* ___test___ the server again at http://localhost:8000/ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTgwODkwMV19
+eyJoaXN0b3J5IjpbLTE0NTY0ODU3ODddfQ==
 -->
