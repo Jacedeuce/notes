@@ -23,10 +23,10 @@ C:\....\{project_name}\apps> nul>urls.py ## for MAC or LINUX use > touch urls.py
 ```
 
 ### Configure the route to your app
-* ___modify___ ...\{project_name}\{project_name}\settings.py
+* ___modify___ `INSTALLED_APPS` list in _...\\{project_name}\\{project_name}\settings.py_
 ```python
 INSTALLED_APPS = [
-       'apps.your_app_name_here', # create this line wi
+       'apps.{your_app_name_here}', # create this line with your app's name
        'django.contrib.admin',
        'django.contrib.auth',
        'django.contrib.contenttypes',
@@ -37,5 +37,5 @@ INSTALLED_APPS = [
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY3MTc0MTJdfQ==
+eyJoaXN0b3J5IjpbLTU1NjgzODI3NV19
 -->
