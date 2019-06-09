@@ -68,6 +68,11 @@ def index(request):
     return HttpResponse("this is the equivalent of @app.route('/')!")
 ```
 * ___test___ the server again at http://localhost:8000/ 
+```console
+(djangoServeEnv) C:\....\{project_name}\apps> cd ..
+(djangoServeEnv) C:\....\{project_name}> python manage.py {project_name}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTg4MzIxNiwtMTkxODU5NDQyOV19
+eyJoaXN0b3J5IjpbMjA3MjUyNTQ4NywtNjAxODgzMjE2LC0xOT
+E4NTk0NDI5XX0=
 -->
