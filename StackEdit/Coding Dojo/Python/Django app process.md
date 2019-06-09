@@ -25,7 +25,8 @@ C:\....django\django_intro> djangoServeEnv\Scripts\activate
 ```console
 (djangoServeEnv) C:\....\django_intro\{project_name}> cd apps
 (djangoServeEnv) C:\....\{project_name}\apps> python ..\manage.py startapp {app_name}
-(djangoServeEnv) C:\....\{project_name}\apps> nul>urls.py ## for MAC or LINUX use > touch urls.py
+(djangoServeEnv) C:\....\{project_name}\apps> cd {app_name}
+(djangoServeEnv) C:\....\{project_name}\apps\{app_name}> nul>urls.py ## for MAC or LINUX use > touch urls.py
 ```
 
 ### Configure the route to your app
@@ -73,6 +74,7 @@ def index(request):
 (djangoServeEnv) C:\....\{project_name}> python manage.py runserver
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MTY2NzYxLDE1Mzk5MzM0MTYsMjA3Mj
-UyNTQ4NywtNjAxODgzMjE2LC0xOTE4NTk0NDI5XX0=
+eyJoaXN0b3J5IjpbODA0OTYyMTg4LDQwODE2Njc2MSwxNTM5OT
+MzNDE2LDIwNzI1MjU0ODcsLTYwMTg4MzIxNiwtMTkxODU5NDQy
+OV19
 -->
