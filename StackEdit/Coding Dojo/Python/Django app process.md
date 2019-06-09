@@ -1,7 +1,8 @@
 ## Steps to create new Django project/app
 
-I am using __djangoServEnv__ as my environment name
-Sub
+##### Note:
+* I am using __djangoServEnv__ as my environment name
+* Substitute in your own values when the text is contained in curly brackets `{}`
 ### Set up the project
 * ___activate___ environment , create a project
 ```console
@@ -65,5 +66,5 @@ def index(request):
 ```
 * ___test___ the server again at http://localhost:8000/ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI5MTIyMjRdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE2NzQ0ODNdfQ==
 -->
