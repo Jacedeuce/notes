@@ -44,7 +44,16 @@ urlpatterns = [
     # url(r'^admin/', admin.sites.urls)         		# comment out, or just delete
 ]
 ```
-* ___modify___ app level `urlpatterns` list in _...\\{project_name}\\{project_name}\urls.py_
+* ___modify___ app level `urlpatterns` list in _...\\{project_name}\\apps\\{app_name}\\urls.py_
+```python
+from django.conf.urls import url
+from . import views
+                    
+urlpatterns = [
+    url(r'^$', views.index),
+]
+```
+* ___modify app level views
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNDE0MzQ2XX0=
+eyJoaXN0b3J5IjpbMjA0NjQ5NTc4N119
 -->
