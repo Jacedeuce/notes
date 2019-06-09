@@ -2,7 +2,7 @@
 ### Set up the project
 * ___activate___ environment , create a project
 ```console
-C:\....django\django_intro>`djangoServeEnv\Scripts\activate
+C:\....django\django_intro> djangoServeEnv\Scripts\activate
 (djangoServeEnv) C:\....django\django_intro> pip install django==1.10
 (djangoServeEnv) C:\....django\django_intro> django-admin startproject {project_name}
 (djangoServeEnv) C:\....django\django_intro\> cd your_project_name_here
@@ -18,9 +18,9 @@ C:\....django\django_intro>`djangoServeEnv\Scripts\activate
 ### Create first app
 * ___create___ app with `manage.py` _startapp_
 ```console
-C:\....django\django_intro\{project_name}> cd apps
-C:\....\{project_name}\apps> python ../manage.py startapp your_app_name_here
-C:\....\{project_name}\apps> nul>urls.py ## for MAC or LINUX use > touch urls.py
+(djangoServeEnv) C:\....django\django_intro\{project_name}> cd apps
+(djangoServeEnv) C:\....\{project_name}\apps> python ../manage.py startapp your_app_name_here
+(djangoServeEnv) C:\....\{project_name}\apps> nul>urls.py ## for MAC or LINUX use > touch urls.py
 ```
 
 ### Configure the route to your app
@@ -45,7 +45,7 @@ urlpatterns = [
     # url(r'^admin/', admin.sites.urls)         		# comment out, or just delete
 ]
 ```
-* ___modify___ app level `urlpatterns` list in _...\\{project_name}\\apps\\{app_name}\\urls.py_
+* ___add___ app level `urlpatterns` list in _...\\{project_name}\\apps\\{app_name}\\urls.py_
 ```python
 from django.conf.urls import url
 from . import views
@@ -62,5 +62,5 @@ def index(request):
 ```
 * ___test___ the server again at http://localhost:8000/ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY0ODU3ODddfQ==
+eyJoaXN0b3J5IjpbNDkzOTgwNjMyXX0=
 -->
