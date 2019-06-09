@@ -10,7 +10,7 @@
 C:\....django\django_intro> djangoServeEnv\Scripts\activate
 (djangoServeEnv) C:\....\django\django_intro> pip install django==1.10
 (djangoServeEnv) C:\....\django\django_intro> django-admin startproject {project_name}
-(djangoServeEnv) C:\....\django\django_intro\> cd your_project_name_here
+(djangoServeEnv) C:\....\django\django_intro\> cd {project_name}
 (djangoServeEnv) C:\....\django_intro\{project_name}> python manage.py runserver
 ```
 * ___test___ the server at http://localhost:8000/ 
@@ -73,6 +73,6 @@ def index(request):
 (djangoServeEnv) C:\....\{project_name}> python manage.py runserver
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzOTkzMzQxNiwyMDcyNTI1NDg3LC02MD
-E4ODMyMTYsLTE5MTg1OTQ0MjldfQ==
+eyJoaXN0b3J5IjpbNDA4MTY2NzYxLDE1Mzk5MzM0MTYsMjA3Mj
+UyNTQ4NywtNjAxODgzMjE2LC0xOTE4NTk0NDI5XX0=
 -->
