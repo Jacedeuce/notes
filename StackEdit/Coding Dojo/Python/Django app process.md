@@ -86,11 +86,14 @@ def index(request):
 </head>
 ```
 
-### CSRF Tokens
+### POST Requests / CSRF Tokens
 
-### S
+### Sessions
+```console
+(djangoServeEnv) C:\....\{project_name}> python manage.py migrate
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MzE2ODkyLDM1NzUyMDE4NSwyMTE3MT
+eyJoaXN0b3J5IjpbOTY5MDQxMTkxLDM1NzUyMDE4NSwyMTE3MT
 k2MDMzLDc2NzcxMjg2OSw4MDQ5NjIxODgsNDA4MTY2NzYxLDE1
 Mzk5MzM0MTYsMjA3MjUyNTQ4NywtNjAxODgzMjE2LC0xOTE4NT
 k0NDI5XX0=
