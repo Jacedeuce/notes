@@ -35,7 +35,16 @@ INSTALLED_APPS = [
        'django.contrib.staticfiles',
    ]
 ```
+* ___modify___ project level `urlpatterns` list in _...\\{project_name}\\{project_name}\urls.py_
+```python 
+from django.conf.urls import url, include	# added an import!
+# from django.contrib import admin              # comment out, or just delete
+urlpatterns = [
+    url(r'^', include('apps.your_app_name_here.urls')),	# use your app_name here
+    # url(r'^admin/', admin.sites.urls)         # comment out, or just delete
+]
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjgzODI3NV19
+eyJoaXN0b3J5IjpbNjQ4ODU2NzYyXX0=
 -->
