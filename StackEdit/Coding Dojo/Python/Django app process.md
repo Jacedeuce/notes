@@ -87,14 +87,21 @@ def index(request):
 ```
 
 ### POST Requests / CSRF Tokens
+* in each form:
+```html
 
+<form  action="/random_word",  method='post'>
+{% csrf_token %}
+<input  type="submit"  value="Generate">
+</form>
+```
 ### Sessions
 ```console
 (djangoServeEnv) C:\....\{project_name}> python manage.py migrate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MDQxMTkxLDM1NzUyMDE4NSwyMTE3MT
-k2MDMzLDc2NzcxMjg2OSw4MDQ5NjIxODgsNDA4MTY2NzYxLDE1
-Mzk5MzM0MTYsMjA3MjUyNTQ4NywtNjAxODgzMjE2LC0xOTE4NT
-k0NDI5XX0=
+eyJoaXN0b3J5IjpbMTIxMDI1NTM1Nyw5NjkwNDExOTEsMzU3NT
+IwMTg1LDIxMTcxOTYwMzMsNzY3NzEyODY5LDgwNDk2MjE4OCw0
+MDgxNjY3NjEsMTUzOTkzMzQxNiwyMDcyNTI1NDg3LC02MDE4OD
+MyMTYsLTE5MTg1OTQ0MjldfQ==
 -->
