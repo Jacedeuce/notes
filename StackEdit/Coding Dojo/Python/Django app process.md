@@ -1,6 +1,7 @@
 ## Steps to create new Django project/app
 
 ##### Note:
+* I created this guide for Windows. There are some comments that include Mac/Linux variations. All of the slashes `\` in filepaths will need to be converted to `/` for *nix based systems.
 * I am using __djangoServEnv__ as my environment name
 * Substitute in your own values when the text is contained in curly brackets `{}`
 * Console commands are proceeded with the current path and activated environment
@@ -99,8 +100,8 @@ def index(request):
 (djangoServeEnv) C:\....\{project_name}> python manage.py migrate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjI2ODk1LDk2OTA0MTE5MSwzNTc1Mj
-AxODUsMjExNzE5NjAzMyw3Njc3MTI4NjksODA0OTYyMTg4LDQw
-ODE2Njc2MSwxNTM5OTMzNDE2LDIwNzI1MjU0ODcsLTYwMTg4Mz
-IxNiwtMTkxODU5NDQyOV19
+eyJoaXN0b3J5IjpbLTY1NjI0NTk5LDE5NTIyNjg5NSw5NjkwND
+ExOTEsMzU3NTIwMTg1LDIxMTcxOTYwMzMsNzY3NzEyODY5LDgw
+NDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMzQxNiwyMDcyNTI1ND
+g3LC02MDE4ODMyMTYsLTE5MTg1OTQ0MjldfQ==
 -->
