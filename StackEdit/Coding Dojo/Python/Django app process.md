@@ -102,7 +102,7 @@ def index(request):
 
 ### Messages
 * [Adding a message](https://docs.djangoproject.com/en/2.2/ref/contrib/messages/#adding-a-message)
-* Displaying messages:
+* Displaying messages on template:
 ```html
 {% if messages %}
     <ul  class="messages">
@@ -113,7 +113,7 @@ def index(request):
 {% endif %}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ4NjAxNzgsLTY1NjI0NTk5LDE5NT
+eyJoaXN0b3J5IjpbLTIxMjgyNzM1ODEsLTY1NjI0NTk5LDE5NT
 IyNjg5NSw5NjkwNDExOTEsMzU3NTIwMTg1LDIxMTcxOTYwMzMs
 NzY3NzEyODY5LDgwNDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMz
 QxNiwyMDcyNTI1NDg3LC02MDE4ODMyMTYsLTE5MTg1OTQ0Mjld
