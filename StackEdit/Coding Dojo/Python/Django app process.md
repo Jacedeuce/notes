@@ -112,10 +112,28 @@ def index(request):
     </ul>
 {% endif %}
 ```
+
+### Passwords
+* Hashing
+```python
+>>> import bcrypt
+>>> hash1 = bcrypt.hashpw('test'.encode(), bcrypt.gensalt())
+>>> print(hash1)
+$2b$12$Wdc2qwiP6u0WdQdKwmer7.DMIcY6q76GxvrJgaodnpRDmpP8mwkDa
+```
+* validating
+```python
+def validate_login(request):
+    user = User.objects.get(email=request.POST['email'])  # hm...is it really a good idea to use the get method here?
+    if bcrypt.checkpw(request.POST['password'].encode(), user.pw_hash.encode()):
+        print("password match")
+    else:
+        print("failed password")
+     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgyNzM1ODEsLTY1NjI0NTk5LDE5NT
-IyNjg5NSw5NjkwNDExOTEsMzU3NTIwMTg1LDIxMTcxOTYwMzMs
-NzY3NzEyODY5LDgwNDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMz
-QxNiwyMDcyNTI1NDg3LC02MDE4ODMyMTYsLTE5MTg1OTQ0Mjld
-fQ==
+eyJoaXN0b3J5IjpbLTE4ODg3ODU5NDAsLTIxMjgyNzM1ODEsLT
+Y1NjI0NTk5LDE5NTIyNjg5NSw5NjkwNDExOTEsMzU3NTIwMTg1
+LDIxMTcxOTYwMzMsNzY3NzEyODY5LDgwNDk2MjE4OCw0MDgxNj
+Y3NjEsMTUzOTkzMzQxNiwyMDcyNTI1NDg3LC02MDE4ODMyMTYs
+LTE5MTg1OTQ0MjldfQ==
 -->
