@@ -95,13 +95,14 @@ def index(request):
 <input  type="submit"  value="Generate">
 </form>
 ```
-### Sessions
+### Initialize the database
 ```console
 (djangoServeEnv) C:\....\{project_name}> python manage.py migrate
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NjI0NTk5LDE5NTIyNjg5NSw5NjkwND
-ExOTEsMzU3NTIwMTg1LDIxMTcxOTYwMzMsNzY3NzEyODY5LDgw
-NDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMzQxNiwyMDcyNTI1ND
-g3LC02MDE4ODMyMTYsLTE5MTg1OTQ0MjldfQ==
+eyJoaXN0b3J5IjpbLTM3NTk0Nzg0OCwtNjU2MjQ1OTksMTk1Mj
+I2ODk1LDk2OTA0MTE5MSwzNTc1MjAxODUsMjExNzE5NjAzMyw3
+Njc3MTI4NjksODA0OTYyMTg4LDQwODE2Njc2MSwxNTM5OTMzND
+E2LDIwNzI1MjU0ODcsLTYwMTg4MzIxNiwtMTkxODU5NDQyOV19
+
 -->
