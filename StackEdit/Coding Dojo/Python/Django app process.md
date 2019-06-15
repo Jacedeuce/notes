@@ -99,10 +99,23 @@ def index(request):
 ```console
 (djangoServeEnv) C:\....\{project_name}> python manage.py migrate
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTk0Nzg0OCwtNjU2MjQ1OTksMTk1Mj
-I2ODk1LDk2OTA0MTE5MSwzNTc1MjAxODUsMjExNzE5NjAzMyw3
-Njc3MTI4NjksODA0OTYyMTg4LDQwODE2Njc2MSwxNTM5OTMzND
-E2LDIwNzI1MjU0ODcsLTYwMTg4MzIxNiwtMTkxODU5NDQyOV19
 
+### Messages
+* [Adding a message](https://docs.djangoproject.com/en/2.2/ref/contrib/messages/#adding-a-message)
+* Displaying messages:
+```html
+{% if messages %}
+<ul  class="messages">
+{% for message in messages %}
+<li{%  if  message.tags  %}  class="{{ message.tags }}"  {%  endif  %}>{{ message }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0MTYyNjE2NTYsLTY1NjI0NTk5LDE5NT
+IyNjg5NSw5NjkwNDExOTEsMzU3NTIwMTg1LDIxMTcxOTYwMzMs
+NzY3NzEyODY5LDgwNDk2MjE4OCw0MDgxNjY3NjEsMTUzOTkzMz
+QxNiwyMDcyNTI1NDg3LC02MDE4ODMyMTYsLTE5MTg1OTQ0Mjld
+fQ==
 -->
