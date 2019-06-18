@@ -46,11 +46,10 @@ INSTALLED_APPS = [
 ```
 * ___modify___ project level `urlpatterns` list in _...\\{project_name}\\{project_name}\urls.py_
 ```python 
-from django.conf.urls import url, include			# add include
-# from django.contrib import admin             			# comment out, or just delete
+from django.conf.urls import url, include ## add 'include'
+
 urlpatterns = [
-    url(r'^', include('apps.{your_app_name_here}.urls')),	# use your app name here
-    # url(r'^admin/', admin.sites.urls)         		# comment out, or just delete
+url(r'^accounts', include('apps.login_reg_app.urls')),
 ]
 ```
 * ___add___ app level `urlpatterns` list in _...\\{project_name}\\apps\\{app_name}\\urls.py_
@@ -133,5 +132,5 @@ def validate_login(request):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NDg3NzE1LC0xMjc1NDYyMTA1XX0=
+eyJoaXN0b3J5IjpbLTM0NzI1NDUxNiwtMTI3NTQ2MjEwNV19
 -->
