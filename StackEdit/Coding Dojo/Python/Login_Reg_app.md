@@ -54,12 +54,15 @@ url(r'^accounts', include('apps.login_reg_app.urls')),
 ```
 * ___add___ app level `urlpatterns` list in _...\\{project_name}\\apps\\{app_name}\\urls.py_
 ```python
-## {app_name} ##
 from django.conf.urls import url
 from . import views
-                    
+
 urlpatterns = [
-    url(r'^$', views.index),
+url(r'^success', views.success),
+url(r'^register/?$', views.register),
+url(r'^login/?$', views.login),
+url(r'^logout/?$', views.logout),
+url(r'^$', views.login_register),
 ]
 ```
 * ___add___ app level views in  _...\\{project_name}\\apps\\{app_name}\\views.py_
@@ -132,5 +135,5 @@ def validate_login(request):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzI1NDUxNiwtMTI3NTQ2MjEwNV19
+eyJoaXN0b3J5IjpbMTE4MDQzMTg0NCwtMTI3NTQ2MjEwNV19
 -->
