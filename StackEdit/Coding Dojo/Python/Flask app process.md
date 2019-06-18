@@ -4,7 +4,7 @@
 
 1. Make new folder for project
 2. Open VSCode and ensure terminal is in the project folder
-3. `conda activate CD` (Only if you're using conda environments)
+3. ~`conda activate CD`~ (Only if you're using conda environments)
 4. `python -m venv {project_name+Env}`
 5. `{project_name+Env}\Scripts\activate`
 6. `pip install flask`
