@@ -5,6 +5,8 @@
 5. go to AWS and create ec2 ubuntu 16.04 ssd
 6. allow tcp ports 80 and 443 in security groups
 7. create and download key pair
+8. launch instance
+9. connect with ssh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU4ODM0ODcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE2Njg3ODIyNzIsNzMwOTk4MTE2XX0=
 -->
