@@ -245,7 +245,7 @@ _project level settings.py_
 TEMPLATES = [
 {
 	'BACKEND': 'django.template.backends.django.DjangoTemplates',
-	'DIRS': [os.path.join(BASE_DIR, 'templates')],
+	'DIRS': [os.path.join(BASE_DIR, 'templates')], ## Add this to point to templates in the project directory
 	'APP_DIRS': True,
 	'OPTIONS': {
 			'context_processors': [
@@ -256,8 +256,11 @@ TEMPLATES = [
 			],
 		},
 },]
+...
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNzIzMzc1LC0xNDA3NDY2Mjk4LDE4MT
-E2MjI0NjYsLTE2NDg0NzIxMDYsLTE1NDIwMTMzOTZdfQ==
+eyJoaXN0b3J5IjpbLTIwODc1MzkwMTMsLTE0MDc0NjYyOTgsMT
+gxMTYyMjQ2NiwtMTY0ODQ3MjEwNiwtMTU0MjAxMzM5Nl19
 -->
