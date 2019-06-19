@@ -6,7 +6,7 @@
 6. allow tcp ports 80 and 443 in security groups
 7. create and download key pair
 8. launch instance
-9. connect with ssh
+9. connect with ssh in folder with .pem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg3ODIyNzIsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjA0MDQxMjM3MSw3MzA5OTgxMTZdfQ==
 -->
