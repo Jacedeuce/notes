@@ -248,17 +248,16 @@ TEMPLATES = [
 	'DIRS': [os.path.join(BASE_DIR, 'templates')],
 	'APP_DIRS': True,
 	'OPTIONS': {
-		'context_processors': [
-		'django.template.context_processors.debug',
-	'django.template.context_processors.request',
-	'django.contrib.auth.context_processors.auth',
-	'django.contrib.messages.context_processors.messages',
-	],
-	},
-	},
-	]
+			'context_processors': [
+			'django.template.context_processors.debug',
+			'django.template.context_processors.request',
+			'django.contrib.auth.context_processors.auth',
+			'django.contrib.messages.context_processors.messages',
+			],
+		},
+},]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MzMwNTk3LC0xNDA3NDY2Mjk4LDE4MT
+eyJoaXN0b3J5IjpbMjcwNzIzMzc1LC0xNDA3NDY2Mjk4LDE4MT
 E2MjI0NjYsLTE2NDg0NzIxMDYsLTE1NDIwMTMzOTZdfQ==
 -->
