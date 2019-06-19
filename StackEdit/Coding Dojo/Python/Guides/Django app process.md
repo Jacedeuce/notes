@@ -1,11 +1,11 @@
-## Steps to create new Django project/app
+# Steps to create new Django project/app
 
 ##### Note:
 * I created this guide for Windows. There are some comments that include Mac/Linux variations. All of the slashes `\` in filepaths will need to be converted to `/` for *nix based systems.
 * I am using __djangoServEnv__ as my environment name
 * Substitute in your own values when the text is contained in curly brackets `{}`
 * Console commands are proceeded with the current path and activated environment
-### Set up the project
+## Set up the project
 * ___activate___ environment , create a project
 ```console
 C:\....django\django_intro> djangoServeEnv\Scripts\activate
@@ -21,7 +21,7 @@ C:\....django\django_intro> djangoServeEnv\Scripts\activate
 (djangoServeEnv) C:\....\django_intro\{project_name}> mkdir apps
 ```
 
-### Create first app
+## Create first app
 * ___create___ app with `manage.py` _startapp_
 ```console
 (djangoServeEnv) C:\....\django_intro\{project_name}> cd apps
@@ -30,7 +30,7 @@ C:\....django\django_intro> djangoServeEnv\Scripts\activate
 (djangoServeEnv) C:\....\{project_name}\apps\{app_name}> nul>urls.py ## for MAC or LINUX use > touch urls.py
 ```
 
-### Configure the route to your app
+## Configure the route to your app
 * ___modify___ `INSTALLED_APPS` list in _...\\{project_name}\\{project_name}\settings.py_
 ```python
 INSTALLED_APPS = [
@@ -74,10 +74,10 @@ def index(request):
 (djangoServeEnv) C:\....\{project_name}\apps\{app_name}> cd ..\..
 (djangoServeEnv) C:\....\{project_name}> python manage.py runserver
 ```
-### Project Structure
+## Project Structure
 <img src="https://s3.amazonaws.com/General_V88/boomyeah2015/codingdojo/curriculum/content/chapter/djangoStructure_04.PNG" width="200" height="300" />`
 
-### Link CSS and JS files to html
+## Link CSS and JS files to html
 ##### Note: I am calling my css file `styles.css`
 ```html
 <head>
@@ -87,7 +87,7 @@ def index(request):
 </head>
 ```
 
-### POST Requests / CSRF Tokens
+## POST Requests / CSRF Tokens
 * in each form:
 ```html
 <form  action="/random_word",  method='post'>
@@ -95,13 +95,13 @@ def index(request):
 <input  type="submit"  value="Generate">
 </form>
 ```
-### Initialize the database
+## Initialize the database
 ```console
 (djangoServeEnv) C:\....\{project_name}> python manage.py makemigrations
 (djangoServeEnv) C:\....\{project_name}> python manage.py migrate
 ```
 
-### Messages
+## Messages
 * [Adding a message](https://docs.djangoproject.com/en/2.2/ref/contrib/messages/#adding-a-message)
 * Displaying messages on template:
 #### in views:
@@ -126,7 +126,7 @@ errors = Book.objects.validate_add_book(request.POST)
 {% endif %}
 ```
 
-### Passwords
+## Passwords
 * Hashing
 ```python
 >>> import bcrypt
@@ -144,6 +144,6 @@ def validate_login(request):
         print("failed password")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE4MzgwNTIsLTE1NDIwMTMzOTZdfQ
+eyJoaXN0b3J5IjpbLTE2NDg0NzIxMDYsLTE1NDIwMTMzOTZdfQ
 ==
 -->
