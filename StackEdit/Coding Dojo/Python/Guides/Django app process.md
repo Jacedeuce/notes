@@ -262,8 +262,8 @@ STATICFILES_DIRS = [(os.path.join(BASE_DIR, "static")),]
 ```
 
 ## Restful Routing
-
+![](https://cdn-images-1.medium.com/max/1000/1*M0hdLsgbzelOFuq-1BVH-g.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU1ODU3MzYsLTE0MDc0NjYyOTgsMT
+eyJoaXN0b3J5IjpbLTEyMjMxNjY5ODYsLTE0MDc0NjYyOTgsMT
 gxMTYyMjQ2NiwtMTY0ODQ3MjEwNiwtMTU0MjAxMzM5Nl19
 -->
