@@ -257,10 +257,10 @@ TEMPLATES = [
 		},
 },]
 ...
-
-
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [(os.path.join(BASE_DIR, "static")),]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODc1MzkwMTMsLTE0MDc0NjYyOTgsMT
-gxMTYyMjQ2NiwtMTY0ODQ3MjEwNiwtMTU0MjAxMzM5Nl19
+eyJoaXN0b3J5IjpbLTc2ODg1NjYxMSwtMTQwNzQ2NjI5OCwxOD
+ExNjIyNDY2LC0xNjQ4NDcyMTA2LC0xNTQyMDEzMzk2XX0=
 -->
