@@ -111,10 +111,11 @@ messages.success(request, 'your message here')
 errors = Book.objects.validate_add_book(request.POST)
     if len(errors) > 0:
         for key, value in errors.items():
-         messages.error(request, value)
+            messages.error(request, value)
 
-return redirect('/books/')
+        return redirect('/books/')
 ```
+#### in template:
 ```html
 {% if messages %}
     <ul  class="messages">
@@ -143,6 +144,6 @@ def validate_login(request):
         print("failed password")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkxNDg5MzksLTE1NDIwMTMzOTZdfQ
+eyJoaXN0b3J5IjpbLTE2OTE4MzgwNTIsLTE1NDIwMTMzOTZdfQ
 ==
 -->
