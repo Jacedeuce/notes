@@ -104,6 +104,10 @@ def index(request):
 ### Messages
 * [Adding a message](https://docs.djangoproject.com/en/2.2/ref/contrib/messages/#adding-a-message)
 * Displaying messages on template:
+#### in views:
+```python
+from django.contrib import messages
+```
 ```html
 {% if messages %}
     <ul  class="messages">
@@ -132,5 +136,5 @@ def validate_login(request):
         print("failed password")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDk1MTEzNywtMTU0MjAxMzM5Nl19
+eyJoaXN0b3J5IjpbLTgzNDI2ODE1MSwtMTU0MjAxMzM5Nl19
 -->
