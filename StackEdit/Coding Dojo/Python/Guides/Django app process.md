@@ -242,8 +242,28 @@ C:.
 
 _project level settings.py_
 ```python
+TEMPLATES = [
 
+{
+
+'BACKEND': 'django.template.backends.django.DjangoTemplates',
+
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
+
+'APP_DIRS': True,
+
+'OPTIONS': {
+
+'context_processors': [
+'django.template.context_processors.debug',
+'django.template.context_processors.request',
+'django.contrib.auth.context_processors.auth',
+'django.contrib.messages.context_processors.messages',
+],
+},
+},
+]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTU4NDE3OSwtMTQwNzQ2NjI5OCwxOD
-ExNjIyNDY2LC0xNjQ4NDcyMTA2LC0xNTQyMDEzMzk2XX0=
+eyJoaXN0b3J5IjpbNjk5MzE5NTYxLC0xNDA3NDY2Mjk4LDE4MT
+E2MjI0NjYsLTE2NDg0NzIxMDYsLTE1NDIwMTMzOTZdfQ==
 -->
