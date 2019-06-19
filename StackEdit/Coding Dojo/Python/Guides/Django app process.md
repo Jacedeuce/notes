@@ -239,7 +239,11 @@ C:.
 │
 └───templates
         base.html
+
+_project level settings.py_
+```python
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc0NjYyOTgsMTgxMTYyMjQ2NiwtMT
-Y0ODQ3MjEwNiwtMTU0MjAxMzM5Nl19
+eyJoaXN0b3J5IjpbMjE0NTU4NDE3OSwtMTQwNzQ2NjI5OCwxOD
+ExNjIyNDY2LC0xNjQ4NDcyMTA2LC0xNTQyMDEzMzk2XX0=
 -->
