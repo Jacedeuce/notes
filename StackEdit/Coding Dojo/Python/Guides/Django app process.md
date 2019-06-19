@@ -143,7 +143,9 @@ def validate_login(request):
     else:
         print("failed password")
 ```
+## Project level template extension
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg0NzIxMDYsLTE1NDIwMTMzOTZdfQ
-==
+eyJoaXN0b3J5IjpbMTgxMTYyMjQ2NiwtMTY0ODQ3MjEwNiwtMT
+U0MjAxMzM5Nl19
 -->
