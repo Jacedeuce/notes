@@ -144,8 +144,102 @@ def validate_login(request):
         print("failed password")
 ```
 ## Project level template extension
-
+C:.
+│   db.sqlite3
+│   manage.py
+│
+├───.vscode
+│       settings.json
+│
+├───apps
+│   ├───fav_books_app
+│   │   │   admin.py
+│   │   │   apps.py
+│   │   │   models.py
+│   │   │   tests.py
+│   │   │   urls.py
+│   │   │   views.py
+│   │   │   __init__.py
+│   │   │
+│   │   ├───migrations
+│   │   │   │   0001_initial.py
+│   │   │   │   0002_auto_20190619_0853.py
+│   │   │   │   __init__.py
+│   │   │   │
+│   │   │   └───__pycache__
+│   │   │           0001_initial.cpython-37.pyc
+│   │   │           0002_auto_20190619_0853.cpython-37.pyc
+│   │   │           __init__.cpython-37.pyc
+│   │   │
+│   │   ├───templates
+│   │   │   └───fav_books_app
+│   │   │           book.html
+│   │   │           book_view.html
+│   │   │
+│   │   └───__pycache__
+│   │           admin.cpython-37.pyc
+│   │           models.cpython-37.pyc
+│   │           urls.cpython-37.pyc
+│   │           views.cpython-37.pyc
+│   │           __init__.cpython-37.pyc
+│   │
+│   └───login_reg_app
+│       │   admin.py
+│       │   apps.py
+│       │   functions.py
+│       │   models.py
+│       │   tests.py
+│       │   urls.py
+│       │   views.py
+│       │   __init__.py
+│       │
+│       ├───migrations
+│       │   │   0001_initial.py
+│       │   │   0002_auto_20190619_0853.py
+│       │   │   __init__.py
+│       │   │
+│       │   └───__pycache__
+│       │           0001_initial.cpython-37.pyc
+│       │           0002_auto_20190619_0853.cpython-37.pyc
+│       │           __init__.cpython-37.pyc
+│       │
+│       ├───static
+│       │   └───login_reg_app
+│       │       └───css
+│       │               log_reg_styles.css
+│       │
+│       ├───templates
+│       │   └───login_reg_app
+│       │           login_register.html
+│       │
+│       └───__pycache__
+│               admin.cpython-37.pyc
+│               functions.cpython-37.pyc
+│               models.cpython-37.pyc
+│               urls.cpython-37.pyc
+│               views.cpython-37.pyc
+│               __init__.cpython-37.pyc
+│
+├───favorite_books
+│   │   settings.py
+│   │   urls.py
+│   │   wsgi.py
+│   │   __init__.py
+│   │
+│   └───__pycache__
+│           settings.cpython-37.pyc
+│           urls.cpython-37.pyc
+│           wsgi.cpython-37.pyc
+│           __init__.cpython-37.pyc
+│
+├───static
+│   └───css
+│           base_styles.css
+│           log_reg_styles.css
+│
+└───templates
+        base.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTYyMjQ2NiwtMTY0ODQ3MjEwNiwtMT
-U0MjAxMzM5Nl19
+eyJoaXN0b3J5IjpbLTE0MDc0NjYyOTgsMTgxMTYyMjQ2NiwtMT
+Y0ODQ3MjEwNiwtMTU0MjAxMzM5Nl19
 -->
