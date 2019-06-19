@@ -107,6 +107,13 @@ def index(request):
 #### in views:
 ```python
 from django.contrib import messages
+messages.success(request, 'your message here')
+errors = Book.objects.validate_add_book(request.POST)
+    if len(errors) > 0:
+        for key, value in errors.items():
+         messages.error(request, value)
+
+return redirect('/books/')
 ```
 ```html
 {% if messages %}
@@ -136,5 +143,6 @@ def validate_login(request):
         print("failed password")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDI2ODE1MSwtMTU0MjAxMzM5Nl19
+eyJoaXN0b3J5IjpbLTE0NTkxNDg5MzksLTE1NDIwMTMzOTZdfQ
+==
 -->
