@@ -97,6 +97,7 @@ def index(request):
 ```
 ### Initialize the database
 ```console
+(djangoServeEnv) C:\....\{project_name}> python manage.py makemigrations
 (djangoServeEnv) C:\....\{project_name}> python manage.py migrate
 ```
 
@@ -131,5 +132,5 @@ def validate_login(request):
         print("failed password")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIwMTMzOTZdfQ==
+eyJoaXN0b3J5IjpbMTY3NDk1MTEzNywtMTU0MjAxMzM5Nl19
 -->
