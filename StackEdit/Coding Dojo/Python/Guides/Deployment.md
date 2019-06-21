@@ -7,6 +7,13 @@
 7. create and download key pair
 8. launch instance
 9. connect with ssh in folder with .pem
+
+
+
+### notes from deployment
+* path to static_root didn't work with my templates directory - had to change dir to "static_root/"
+* swap username from `ubuntu` to `cloud_user` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDQxMjM3MSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzODU4Njg1NDksMjA0MDQxMjM3MSw3Mz
+A5OTgxMTZdfQ==
 -->
