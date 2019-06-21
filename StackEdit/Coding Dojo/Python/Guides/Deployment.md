@@ -43,6 +43,7 @@ sudo tee /etc/systemd/system/nginx.service.d/override.conf
 sudo systemctl daemon-reload  
 sudo systemctl restart nginx
 ```
+https://bugs.launchpad.net/ubuntu/+source/nginx/+bug/1581864
 
 ##### Now:
 ```
@@ -67,6 +68,6 @@ Jun 21 23:39:57 jdhanna1c.mylabserver.com systemd[1]: Starting A high performanc
 Jun 21 23:39:57 jdhanna1c.mylabserver.com systemd[1]: Started A high performance web server and a reverse proxy server.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzcxNDkxNCwtMTM4NTg2ODU0OSwyMD
+eyJoaXN0b3J5IjpbLTI5NzIzNTAyMSwtMTM4NTg2ODU0OSwyMD
 QwNDEyMzcxLDczMDk5ODExNl19
 -->
