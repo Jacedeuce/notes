@@ -33,7 +33,11 @@ sudo dnf install chromium
 ### Install Pandora
 [Flatpak](https://nuvola.tiliado.eu/app/pandora/fedora/fc28/)
 
+https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
+https://rpmfusion.org/Configuration
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1MDIwNTQ2LDE3ODg0ODMzNTQsNDg1ND
-IyODkzLC0xMTczNzE0NzAyXX0=
+eyJoaXN0b3J5IjpbLTEyODk3NTk4NzksNDU1MDIwNTQ2LDE3OD
+g0ODMzNTQsNDg1NDIyODkzLC0xMTczNzE0NzAyXX0=
 -->
