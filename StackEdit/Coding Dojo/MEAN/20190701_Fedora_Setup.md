@@ -1,6 +1,14 @@
 ## Fedora Set Up log
 ```console
-dnf 
+dnf upgrade --refresh
+```
+under settings>devices>monitor:
+* set orientation
+
+under settings>devices>mouse:
+* tap to click on touchpad
+
+install 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDgyMDE4M119
+eyJoaXN0b3J5IjpbNzg5MDQ0NzAzXX0=
 -->
