@@ -19,11 +19,11 @@ dnf install keepass
 ```
 
 ### [Install vscode](https://code.visualstudio.com/docs/setup/linux)
-#### Install Code Runner
+#### [Install Extensions](https://github.com/Jacedeuce/notes/blob/master/StackEdit/Coding%20Dojo/20190520_First%20Day.md)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNzg0MTQ4XX0=
+eyJoaXN0b3J5IjpbLTExNzM3MTQ3MDJdfQ==
 -->
