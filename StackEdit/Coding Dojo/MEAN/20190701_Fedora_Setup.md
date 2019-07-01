@@ -35,11 +35,13 @@ sudo dnf install chromium
 
 https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
 https://rpmfusion.org/Configuration
+This One! --> https://forums.fedoraforum.org/showthread.php?317721-fedora-28-and-firefox-video(h264-youtube-gstreamer1)
 
 no headphone sound: 
 * ```/usr/bin/amixer -c0 set Headphone unmute 100% ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkwMjk5NjMsNDU1MDIwNTQ2LDE3OD
-g0ODMzNTQsNDg1NDIyODkzLC0xMTczNzE0NzAyXX0=
+eyJoaXN0b3J5IjpbMTk1Mjc2Mjk3NSwtMTYzOTAyOTk2Myw0NT
+UwMjA1NDYsMTc4ODQ4MzM1NCw0ODU0MjI4OTMsLTExNzM3MTQ3
+MDJdfQ==
 -->
