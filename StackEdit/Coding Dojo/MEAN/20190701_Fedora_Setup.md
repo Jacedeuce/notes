@@ -22,8 +22,9 @@ dnf install keepass
 #### [Install Extensions](https://github.com/Jacedeuce/notes/blob/master/StackEdit/Coding%20Dojo/20190520_First%20Day.md)
 
 
-
+### Install Node.js
+[instructions](https://tecadmin.net/install-latest-nodejs-on-fedora/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM3MTQ3MDJdfQ==
+eyJoaXN0b3J5IjpbNDg1NDIyODkzLC0xMTczNzE0NzAyXX0=
 -->
