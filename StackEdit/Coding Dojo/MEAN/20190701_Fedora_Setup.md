@@ -36,8 +36,10 @@ sudo dnf install chromium
 https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/
 https://rpmfusion.org/Configuration
 
+no headphone sound: 
+* ```/usr/bin/amixer -c0 set Headphone unmute 100% ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk3NTk4NzksNDU1MDIwNTQ2LDE3OD
+eyJoaXN0b3J5IjpbLTE2MzkwMjk5NjMsNDU1MDIwNTQ2LDE3OD
 g0ODMzNTQsNDg1NDIyODkzLC0xMTczNzE0NzAyXX0=
 -->
