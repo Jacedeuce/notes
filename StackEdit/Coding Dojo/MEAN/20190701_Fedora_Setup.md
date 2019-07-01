@@ -30,7 +30,10 @@ dnf install keepass
 sudo dnf install chromium
 ```
 
+### Install Pandora
+[Flatpak](https://nuvola.tiliado.eu/app/pandora/fedora/fc28/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODQ4MzM1NCw0ODU0MjI4OTMsLTExNz
-M3MTQ3MDJdfQ==
+eyJoaXN0b3J5IjpbNDU1MDIwNTQ2LDE3ODg0ODMzNTQsNDg1ND
+IyODkzLC0xMTczNzE0NzAyXX0=
 -->
