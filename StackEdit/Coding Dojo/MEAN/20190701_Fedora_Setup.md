@@ -2,13 +2,23 @@
 ```console
 dnf upgrade --refresh
 ```
-under settings>devices>monitor:
+### Settings
+#### Set key binding for gnome-terminal
+settings>devices>keyboard set:
+* ctl+alt+t for gno
+
+#### under settings>devices>monitor:
 * set orientation
 
-under settings>devices>mouse:
+#### under settings>devices>mouse:
 * tap to click on touchpad
 
-install 
+install keepass:
+```console
+dnf install keepass
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MDQ0NzAzXX0=
+eyJoaXN0b3J5IjpbLTIxMDkwNzM4MzddfQ==
 -->
