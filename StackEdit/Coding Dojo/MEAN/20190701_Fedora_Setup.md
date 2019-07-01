@@ -25,6 +25,12 @@ dnf install keepass
 ### Install Node.js
 [instructions](https://tecadmin.net/install-latest-nodejs-on-fedora/)
 
+### Install Chromium
+```console
+sudo dnf install chromium
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NDIyODkzLC0xMTczNzE0NzAyXX0=
+eyJoaXN0b3J5IjpbMTc4ODQ4MzM1NCw0ODU0MjI4OTMsLTExNz
+M3MTQ3MDJdfQ==
 -->
