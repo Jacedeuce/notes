@@ -38,10 +38,12 @@ https://rpmfusion.org/Configuration
 This One! --> https://forums.fedoraforum.org/showthread.php?317721-fedora-28-and-firefox-video(h264-youtube-gstreamer1)
 
 no headphone sound: 
-* ```/usr/bin/amixer -c0 set Headphone unmute 100% ```
+* ```/usr/bin/amixer -c0 set Headphone unmute 100% ```Install Flash
+
+Install H.264 codec
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Mjc2Mjk3NSwtMTYzOTAyOTk2Myw0NT
-UwMjA1NDYsMTc4ODQ4MzM1NCw0ODU0MjI4OTMsLTExNzM3MTQ3
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDIxMjEwMzcsMTk1Mjc2Mjk3NSwtMT
+YzOTAyOTk2Myw0NTUwMjA1NDYsMTc4ODQ4MzM1NCw0ODU0MjI4
+OTMsLTExNzM3MTQ3MDJdfQ==
 -->
