@@ -16,8 +16,10 @@ terminal.integrated.fontSize: 15
 ```
 
 [Binary Search Javascript complex example](https://codeburst.io/binary-search-in-javascript-a-practical-example-7fda60ce59a1)
+
+[Random value from Javascript array](https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTIxNjA5MzMsLTIwNjc0MDE5MTksLT
-E3MDgwODQxODMsLTE2NzkzOTE2MDYsLTY5ODYxNjg5OCwtMTg3
-NzEyNDg5OF19
+eyJoaXN0b3J5IjpbNTU2MjMwMDYzLC0xMTEyMTYwOTMzLC0yMD
+Y3NDAxOTE5LC0xNzA4MDg0MTgzLC0xNjc5MzkxNjA2LC02OTg2
+MTY4OTgsLTE4NzcxMjQ4OThdfQ==
 -->
