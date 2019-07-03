@@ -14,9 +14,13 @@
 * [JQuery DOM Manipulation](https://www.w3schools.com/jquery/jquery_dom_set.asp)
 * [JQuery Promises](https://api.jquery.com/jquery.get/#jqxhr-object)
 
+### CSS
+* [grid by example](https://gridbyexample.com/examples/)
+
 ### Other:
 [Django Tutorial](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzE2ODc3LDQ4MDQyNjQ5OCwtMTE1Mj
-E4MjI0NiwtMzc3NzIyNywtMzg5OTg0MDMwXX0=
+eyJoaXN0b3J5IjpbMTk3ODk3NjE4NSwxNzczMTY4NzcsNDgwND
+I2NDk4LC0xMTUyMTgyMjQ2LC0zNzc3MjI3LC0zODk5ODQwMzBd
+fQ==
 -->
