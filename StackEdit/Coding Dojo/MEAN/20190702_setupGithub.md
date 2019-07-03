@@ -14,7 +14,10 @@
 ```
 terminal.integrated.fontSize: 15
 ```
+
+[Binary Search Javascript complex example](https://codeburst.io/binary-search-in-javascript-a-practical-example-7fda60ce59a1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc0MDE5MTksLTE3MDgwODQxODMsLT
-E2NzkzOTE2MDYsLTY5ODYxNjg5OCwtMTg3NzEyNDg5OF19
+eyJoaXN0b3J5IjpbLTExMTIxNjA5MzMsLTIwNjc0MDE5MTksLT
+E3MDgwODQxODMsLTE2NzkzOTE2MDYsLTY5ODYxNjg5OCwtMTg3
+NzEyNDg5OF19
 -->
