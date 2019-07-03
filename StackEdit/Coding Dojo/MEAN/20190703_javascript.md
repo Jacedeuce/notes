@@ -12,10 +12,11 @@
 * [promises vs callbacks](https://blog.revathskumar.com/2016/06/why-i-prefer-ajax-promise.html)
 * [jquery AJAX methods](https://learn.jquery.com/ajax/jquery-ajax-methods/)
 * [JQuery DOM Manipulation](https://www.w3schools.com/jquery/jquery_dom_set.asp)
+* [JQuery Promises](https://api.jquery.com/jquery.get/#jqxhr-object)
 
 ### Other:
 [Django Tutorial](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNDI2NDk4LC0xMTUyMTgyMjQ2LC0zNz
-c3MjI3LC0zODk5ODQwMzBdfQ==
+eyJoaXN0b3J5IjpbMTc3MzE2ODc3LDQ4MDQyNjQ5OCwtMTE1Mj
+E4MjI0NiwtMzc3NzIyNywtMzg5OTg0MDMwXX0=
 -->
