@@ -10,11 +10,11 @@
 
 ### AJAX
 * [promises vs callbacks](https://blog.revathskumar.com/2016/06/why-i-prefer-ajax-promise.html)
-* [
+* [jquery AJAX methods](https://learn.jquery.com/ajax/jquery-ajax-methods/)
 
 ### Other:
 [Django Tutorial](https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjg2MDIyMywtMzc3NzIyNywtMzg5OT
-g0MDMwXX0=
+eyJoaXN0b3J5IjpbLTExNTIxODIyNDYsLTM3NzcyMjcsLTM4OT
+k4NDAzMF19
 -->
