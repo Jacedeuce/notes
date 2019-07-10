@@ -11,10 +11,22 @@ code .
 ```javascript
 var express = require("express");
 var app = express();
+
 app.set('views', __dirname + '/views/');
 app.set('view engine', 'ejs');
+
 app.use(express.static(__dirname + "/static"));
+app.use(session({
+  secret: 'keyboardkitteh',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { maxAge: 60000 }
+}))
+
+
 require('./routes')(app)
+
+
 app.listen(8000, (err)=>{
   if (err) {
     console.log(err);
@@ -58,6 +70,6 @@ module.exports = function(app){
 
 #### project tree
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjcwMzU1NiwxMzQyMTcwMTM1LDE1Nz
-Y0ODQ2NDgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQxMDY5NjU3NCwtNDM2NzAzNTU2LDEzND
+IxNzAxMzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
 -->
