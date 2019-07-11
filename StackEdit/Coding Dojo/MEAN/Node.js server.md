@@ -72,7 +72,7 @@ module.exports = function(app){
   app.get('/cats/:catID', controller.cat_show)
 }
 ```
-##### models.py
+##### models.js
 ```javascript
 const mongoose = require('mongoose')
 
@@ -104,8 +104,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODg5NDg3ODAsLTE5ODE3Mzc4MTksNj
-A2NTMzMjkyLC0xOTI4NDc3MDE2LC01NTUyOTI4MDIsMTQxMDY5
-NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAxMzUsMTU3NjQ4NDY0OC
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQxOTQ3NDkyNCwtMTk4MTczNzgxOSw2MD
+Y1MzMyOTIsLTE5Mjg0NzcwMTYsLTU1NTI5MjgwMiwxNDEwNjk2
+NTc0LC00MzY3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0NjQ4LD
+czMDk5ODExNl19
 -->
