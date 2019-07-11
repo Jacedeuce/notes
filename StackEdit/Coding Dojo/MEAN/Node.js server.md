@@ -37,23 +37,27 @@ app.listen(8000, (err)=>{
 ```
 ##### create controller.js
 ```javascript
+const User = require("./models")
+
 module.exports = {
-  index : (req, res)=>{
-    var context = {pages : ['cars', 'cats']}
-    res.render('index', context)
-  },
-  cars : (req, res)=>{
-    res.render('cars')
-  },
-  newcar : (req, res)=>{
-    res.render('newcar')
-  },
-  cats : (req, res)=>{
-    res.render('cats', {cats : cat_arr})
-  },
-  cat_show : (req, res)=>{
-    res.render('cat_show', {cat : cat_arr[req.params.catID-1]})
-  }
+index : (req, res)=>{
+res.render('index')
+},
+users : (req, res)=>{
+console.log("POSTDATA", req.body)
+
+var user =  new User({name: req.body.name, age: req.body.age});
+// Try to save that new user to the database (this is the method that actually inserts into the db) and run a callback function with an error (if any) from the operation.
+user.save(function(err) {
+// if there is an error console.log that something went wrong!
+	if(err) {
+		console.log('something went wrong');
+} else { // else console.log that we did well and then redirect to the root route
+console.log('successfully added a user!');
+}
+res.redirect('/')
+})
+}
 }
 ```
 ##### create routes.js
@@ -74,7 +78,7 @@ sudo systemctl start mongod.service
 ```
 #### project tree
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTI5MjgwMiwxNDEwNjk2NTc0LC00Mz
-Y3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0NjQ4LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTEzOTc4NDY0ODgsLTU1NTI5MjgwMiwxND
+EwNjk2NTc0LC00MzY3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0
+NjQ4LDczMDk5ODExNl19
 -->
