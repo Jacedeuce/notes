@@ -67,9 +67,14 @@ module.exports = function(app){
   app.get('/cats/:catID', controller.cat_show)
 }
 ```
-
+#### Mongo
+```console
+sudo systemctl enable mongod.service
+sudo systemctl start mongod.service
+```
 #### project tree
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDY5NjU3NCwtNDM2NzAzNTU2LDEzND
-IxNzAxMzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTU1NTI5MjgwMiwxNDEwNjk2NTc0LC00Mz
+Y3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0NjQ4LDczMDk5ODEx
+Nl19
 -->
