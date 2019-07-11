@@ -9,30 +9,31 @@ code .
 ```
 ##### create server.js
 ```javascript
-var express = require("express");
-var app = express();
+var express = require("express")
+var bp = require("body-parser")
+var path = require("path")
+var app = express()
 
-app.set('views', __dirname + '/views/');
-app.set('view engine', 'ejs');
-
-app.use(express.static(__dirname + "/static"));
+app.use(bp.urlencoded({extended: true}))
+app.use(express.static(path.join(__dirname, './static')))
 app.use(session({
-  secret: 'keyboardkitteh',
-  resave: false,
-  saveUninitialized: true,
-  cookie: { maxAge: 60000 }
+    secret: 'quotes',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { maxAge: 60000 }
 }))
 
-
+app.set('views', path.join(__dirname, '.views'))
+app.set('view engine', 'ejs')
+  
 require('./routes')(app)
 
-
-app.listen(8000, (err)=>{
-  if (err) {
-    console.log(err);
-  } else {
-    console.log("listening on port 8000")
-  }
+app.listen(8000, function(errs) {
+    if (errs){
+        console.log(errs)
+    } else {
+        console.log("listening on port 8000...")
+    }
 })
 ```
 ##### create controller.js
@@ -88,7 +89,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NTMzMjkyLC0xOTI4NDc3MDE2LC01NT
-UyOTI4MDIsMTQxMDY5NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAx
-MzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5ODE3Mzc4MTksNjA2NTMzMjkyLC0xOT
+I4NDc3MDE2LC01NTUyOTI4MDIsMTQxMDY5NjU3NCwtNDM2NzAz
+NTU2LDEzNDIxNzAxMzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ
+==
 -->
