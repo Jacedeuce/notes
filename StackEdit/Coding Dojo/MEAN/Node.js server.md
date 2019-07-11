@@ -59,8 +59,8 @@ module.exports = {
                 console.log('successfully added a user!');
             }
         res.redirect('/')
-})
-}
+        })
+    }
 }
 ```
 ##### create routes.js
@@ -106,8 +106,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ0MDA2NzcsMTU5NzE0ODk5OCwtND
-E5NDc0OTI0LC0xOTgxNzM3ODE5LDYwNjUzMzI5MiwtMTkyODQ3
-NzAxNiwtNTU1MjkyODAyLDE0MTA2OTY1NzQsLTQzNjcwMzU1Ni
-wxMzQyMTcwMTM1LDE1NzY0ODQ2NDgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTYzNjkyMDQxMSwxNTk3MTQ4OTk4LC00MT
+k0NzQ5MjQsLTE5ODE3Mzc4MTksNjA2NTMzMjkyLC0xOTI4NDc3
+MDE2LC01NTUyOTI4MDIsMTQxMDY5NjU3NCwtNDM2NzAzNTU2LD
+EzNDIxNzAxMzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
 -->
