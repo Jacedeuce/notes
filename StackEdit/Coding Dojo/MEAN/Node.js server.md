@@ -50,12 +50,12 @@ var user =  new User({name: req.body.name, age: req.body.age});
 // Try to save that new user to the database (this is the method that actually inserts into the db) and run a callback function with an error (if any) from the operation.
 user.save(function(err) {
 // if there is an error console.log that something went wrong!
-	if(err) {
-		console.log('something went wrong');
-} else { // else console.log that we did well and then redirect to the root route
-console.log('successfully added a user!');
-}
-res.redirect('/')
+    if(err) {
+	console.log('something went wrong');
+    } else { // else console.log that we did well and then redirect to the root route
+        console.log('successfully added a user!');
+    }
+    res.redirect('/')
 })
 }
 }
@@ -78,7 +78,7 @@ sudo systemctl start mongod.service
 ```
 #### project tree
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc4NDY0ODgsLTU1NTI5MjgwMiwxND
+eyJoaXN0b3J5IjpbLTE5Mjg0NzcwMTYsLTU1NTI5MjgwMiwxND
 EwNjk2NTc0LC00MzY3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0
 NjQ4LDczMDk5ODExNl19
 -->
