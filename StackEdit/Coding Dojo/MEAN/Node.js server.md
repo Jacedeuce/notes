@@ -31,9 +31,9 @@ app.set('view engine', 'ejs')
   
 require('./routes')(app)
 
-app.listen(8000, function(errs) {
-    if (errs){
-        console.log(errs)
+app.listen(8000, (err)=>{
+    if (err){
+        console.log(err)
     } else {
         console.log("listening on port 8000...")
     }
@@ -107,7 +107,7 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzYyNTQ2NCwtNDE5NDc0OTI0LC0xOT
+eyJoaXN0b3J5IjpbMTU5NzE0ODk5OCwtNDE5NDc0OTI0LC0xOT
 gxNzM3ODE5LDYwNjUzMzI5MiwtMTkyODQ3NzAxNiwtNTU1Mjky
 ODAyLDE0MTA2OTY1NzQsLTQzNjcwMzU1NiwxMzQyMTcwMTM1LD
 E1NzY0ODQ2NDgsNzMwOTk4MTE2XX0=
