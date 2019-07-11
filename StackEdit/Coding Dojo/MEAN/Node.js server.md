@@ -72,6 +72,21 @@ module.exports = function(app){
   app.get('/cats/:catID', controller.cat_show)
 }
 ```
+##### models.py
+```javascript
+const mongoose = require('mongoose')
+
+mongoose.connect('mongodb://localhost/quotes_db')
+
+var QuoteSchema =  new mongoose.Schema({
+name: String,
+quote: String,
+},
+{timestamps : true})  //https://stackoverflow.com/a/15147350/5248397
+
+module.exports = mongoose.model('Quote', QuoteSchema)
+```
+
 #### Mongo
 ```console
 sudo systemctl enable mongod.service
@@ -89,8 +104,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODE3Mzc4MTksNjA2NTMzMjkyLC0xOT
-I4NDc3MDE2LC01NTUyOTI4MDIsMTQxMDY5NjU3NCwtNDM2NzAz
-NTU2LDEzNDIxNzAxMzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ
-==
+eyJoaXN0b3J5IjpbLTEzODg5NDg3ODAsLTE5ODE3Mzc4MTksNj
+A2NTMzMjkyLC0xOTI4NDc3MDE2LC01NTUyOTI4MDIsMTQxMDY5
+NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAxMzUsMTU3NjQ4NDY0OC
+w3MzA5OTgxMTZdfQ==
 -->
