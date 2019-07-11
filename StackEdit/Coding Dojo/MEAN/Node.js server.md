@@ -44,22 +44,21 @@ app.listen(8000, (err)=>{
 const User = require("./models")
 
 module.exports = {
-index : (req, res)=>{
-res.render('index')
-},
-users : (req, res)=>{
-console.log("POSTDATA", req.body)
-
-var user =  new User({name: req.body.name, age: req.body.age});
-// Try to save that new user to the database (this is the method that actually inserts into the db) and run a callback function with an error (if any) from the operation.
-user.save(function(err) {
-// if there is an error console.log that something went wrong!
-    if(err) {
-	console.log('something went wrong');
-    } else { // else console.log that we did well and then redirect to the root route
-        console.log('successfully added a user!');
-    }
-    res.redirect('/')
+    index : (req, res)=>{
+        res.render('index')
+    },
+    users : (req, res)=>{
+        console.log("POSTDATA", req.body
+        var user =  new User({name: req.body.name, age: req.body.age});
+        // Try to save that new user to the database (this is the method that actually inserts into the db) and run a callback function with an error (if any) from the operation.
+        user.save(function(err) {
+        // if there is an error console.log that something went wrong!
+            if(err) {
+	        console.log('something went wrong');
+            } else { // else console.log that we did well and then redirect to the root route
+                console.log('successfully added a user!');
+            }
+        res.redirect('/')
 })
 }
 }
@@ -107,8 +106,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzE0ODk5OCwtNDE5NDc0OTI0LC0xOT
-gxNzM3ODE5LDYwNjUzMzI5MiwtMTkyODQ3NzAxNiwtNTU1Mjky
-ODAyLDE0MTA2OTY1NzQsLTQzNjcwMzU1NiwxMzQyMTcwMTM1LD
-E1NzY0ODQ2NDgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNTQ0MDA2NzcsMTU5NzE0ODk5OCwtND
+E5NDc0OTI0LC0xOTgxNzM3ODE5LDYwNjUzMzI5MiwtMTkyODQ3
+NzAxNiwtNTU1MjkyODAyLDE0MTA2OTY1NzQsLTQzNjcwMzU1Ni
+wxMzQyMTcwMTM1LDE1NzY0ODQ2NDgsNzMwOTk4MTE2XX0=
 -->
