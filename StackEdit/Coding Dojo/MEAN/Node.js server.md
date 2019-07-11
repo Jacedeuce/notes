@@ -9,9 +9,11 @@ code .
 ```
 ##### create server.js
 ```javascript
-var express = require("express")
-var bp = require("body-parser")
-var path = require("path")
+const express = require("express")
+const bp = require("body-parser")
+const path = require("path")
+const session = require("express-session")
+const flash = require("express-flash")
 var app = express()
 
 app.use(bp.urlencoded({extended: true}))
@@ -22,6 +24,7 @@ app.use(session({
     saveUninitialized: true,
     cookie: { maxAge: 60000 }
 }))
+app.use(flash())
 
 app.set('views', path.join(__dirname, '.views'))
 app.set('view engine', 'ejs')
@@ -104,8 +107,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1MTY5Mjc0LC00MTk0NzQ5MjQsLTE5OD
-E3Mzc4MTksNjA2NTMzMjkyLC0xOTI4NDc3MDE2LC01NTUyOTI4
-MDIsMTQxMDY5NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAxMzUsMT
-U3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIwNzYyNTQ2NCwtNDE5NDc0OTI0LC0xOT
+gxNzM3ODE5LDYwNjUzMzI5MiwtMTkyODQ3NzAxNiwtNTU1Mjky
+ODAyLDE0MTA2OTY1NzQsLTQzNjcwMzU1NiwxMzQyMTcwMTM1LD
+E1NzY0ODQ2NDgsNzMwOTk4MTE2XX0=
 -->
