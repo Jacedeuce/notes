@@ -4,7 +4,7 @@ mkdir {{project_name}}
 cd {{project_name}}
 mkdir static static/images static/css views
 npm init
-npm install express ejs express-session body-parser
+npm install express ejs express-session body-parser express-flash mongoose
 code .
 ```
 ##### create server.js
@@ -104,8 +104,8 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTQ3NDkyNCwtMTk4MTczNzgxOSw2MD
-Y1MzMyOTIsLTE5Mjg0NzcwMTYsLTU1NTI5MjgwMiwxNDEwNjk2
-NTc0LC00MzY3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0NjQ4LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbNDI1MTY5Mjc0LC00MTk0NzQ5MjQsLTE5OD
+E3Mzc4MTksNjA2NTMzMjkyLC0xOTI4NDc3MDE2LC01NTUyOTI4
+MDIsMTQxMDY5NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAxMzUsMT
+U3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
 -->
