@@ -77,8 +77,18 @@ sudo systemctl enable mongod.service
 sudo systemctl start mongod.service
 ```
 #### project tree
+.
+├── controller.js
+├── models.js
+├── routes.js
+├── server.js
+├── static
+│   └── css
+│       └── style.css
+└── views
+    └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg0NzcwMTYsLTU1NTI5MjgwMiwxND
-EwNjk2NTc0LC00MzY3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0
-NjQ4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNjA2NTMzMjkyLC0xOTI4NDc3MDE2LC01NT
+UyOTI4MDIsMTQxMDY5NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAx
+MzUsMTU3NjQ4NDY0OCw3MzA5OTgxMTZdfQ==
 -->
