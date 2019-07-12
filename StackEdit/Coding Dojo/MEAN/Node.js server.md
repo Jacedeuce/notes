@@ -26,7 +26,7 @@ app.use(session({
 }))
 app.use(flash())
 
-app.set('views', path.join(__dirname, '.views'))
+app.set('views', path.join(__dirname, './views'))
 app.set('view engine', 'ejs')
   
 require('./routes')(app)
@@ -106,9 +106,9 @@ sudo systemctl start mongod.service
 └── views
     └── index.ejs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjgyNzIyOSwxNjM2OTIwNDExLDE1OT
-cxNDg5OTgsLTQxOTQ3NDkyNCwtMTk4MTczNzgxOSw2MDY1MzMy
-OTIsLTE5Mjg0NzcwMTYsLTU1NTI5MjgwMiwxNDEwNjk2NTc0LC
-00MzY3MDM1NTYsMTM0MjE3MDEzNSwxNTc2NDg0NjQ4LDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbMTY4NDI4Mzk0LDEwMTI4MjcyMjksMTYzNj
+kyMDQxMSwxNTk3MTQ4OTk4LC00MTk0NzQ5MjQsLTE5ODE3Mzc4
+MTksNjA2NTMzMjkyLC0xOTI4NDc3MDE2LC01NTUyOTI4MDIsMT
+QxMDY5NjU3NCwtNDM2NzAzNTU2LDEzNDIxNzAxMzUsMTU3NjQ4
+NDY0OCw3MzA5OTgxMTZdfQ==
 -->
