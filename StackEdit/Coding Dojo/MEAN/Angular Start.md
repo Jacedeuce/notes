@@ -56,6 +56,7 @@ import { AppComponent } from  './app.component';
 })
 export  class AppModule { }
 ```
+##### pokemon.service.ts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYzOTc0ODUsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbNDcwOTM5OTIxLC02ODU4ODY2MzJdfQ==
 -->
