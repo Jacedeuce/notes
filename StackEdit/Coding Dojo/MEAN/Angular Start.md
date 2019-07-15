@@ -34,9 +34,28 @@ export class AppComponent {
 title = 'restful_tasks';
 constructor(private _pokemonService: PokemonService) {} //add
 }
-```javascript
-import { HttpService } from './http.service';
+```
+##### app.module.ts
+```typescript
+import { BrowserModule } from  '@angular/platform-browser';
+import { NgModule } from  '@angular/core';
+import { PokemonService } from  './pokemon.service'
+import { HttpClientModule } from  '@angular/common/http'
+import { AppComponent } from  './app.component';
+
+@NgModule({
+    declarations: [
+        AppComponent
+    ],
+    imports: [
+        BrowserModule,
+        HttpClientModule
+    ],
+    providers: [PokemonService],
+    bootstrap: [AppComponent]
+})
+export  class AppModule { }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTAyODM5NCwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTEyNjYzOTc0ODUsLTY4NTg4NjYzMl19
 -->
