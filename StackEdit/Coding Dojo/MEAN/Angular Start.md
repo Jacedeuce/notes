@@ -16,7 +16,7 @@ ng build --watch
 ##### Build a service
 
 ```
-ng g s [[service name]]
+ng g s [[service name]] (Http)
 ```
 
 ##### app.component.ts
@@ -38,5 +38,5 @@ constructor(private _httpService: HttpService) {} //add
 import { HttpService } from './http.service';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbMTk0ODAzMDMwMSwtNjg1ODg2NjMyXX0=
 -->
