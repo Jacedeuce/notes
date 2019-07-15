@@ -16,13 +16,13 @@ ng build --watch
 ##### Build a service
 
 ```
-ng g s [[service name]] (Http)
+ng g s [[service name]] (pokemon)
 ```
 
 ##### app.component.ts
 ```typescript
 import { Component } from '@angular/core';
-import { HttpService } from './http.service' //add
+import { PokemonService } from './pokemon.service' //add
 
 @Component({
 selector: 'app-root',
@@ -32,11 +32,11 @@ styleUrls: ['./app.component.css']
 
 export class AppComponent {
 title = 'restful_tasks';
-constructor(private _httpService: HttpService) {} //add
+constructor(private _pokemonService: PokemonService) {} //add
 }
 ```javascript
 import { HttpService } from './http.service';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODAzMDMwMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTIwOTAyODM5NCwtNjg1ODg2NjMyXX0=
 -->
