@@ -205,25 +205,43 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 
 @Injectable({
-providedIn: 'root'
+    providedIn: 'root'
 })
-export class HttpService {
+export class TasksService {
 
-    constructor(private _http: HttpClient) {
-        this.getTasks()
-        this.getATask('5d292b1435b36446c1a6d79c')
+    constructor(private _http: HttpClient) {}
+
+    get_tasks() {
+        return this._http.get('/tasks')
     }
-    getTasks(){
-        let tempObservable = this._http.get('/tasks')
-        tempObservable.subscribe(data => console.log("Got our tasks!", data))
-    }
-    getATask(id){
-        let taskObserver = this._http.get('/tasks/' + id)
-        taskObserver.subscribe(data => console.log("Got task back: ", data))
+
+    get_one_task(id){
+        return this._http.get('/tasks/' + id)
     }
 }
 ```
+##### app.component.html
+```
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http'
+
+@Injectable({
+    providedIn: 'root'
+})
+export class TasksService {
+
+    constructor(private _http: HttpClient) {}
+
+    get_tasks() {
+        return this._http.get('/tasks')
+    }
+
+    get_one_task(id){
+        return this._http.get('/tasks/' + id)
+    }
+}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzM4NzEzMywtMTU1MTc4MTgwNCwxMT
-MxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTE0MjQ3NjcyNjEsLTE1NTE3ODE4MDQsMT
+EzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
