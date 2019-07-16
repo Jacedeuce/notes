@@ -20,11 +20,13 @@ app tree:
 
 ##### app.component.html
 * add the selector for the nested component in the root component html
+* *ngIf to control display
+* [task_to_show] (nested variable) collects value from "selectedTask"
 ```html
 ...
-<app-task></app-task>
+<app-task *ngIf="selectedTask" [taskToShow]="selectedTask"></app-task>
 ...
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzI0ODM2OV19
+eyJoaXN0b3J5IjpbLTY1MDk0NjEwM119
 -->
