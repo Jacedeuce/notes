@@ -21,12 +21,29 @@ app tree:
 ##### app.component.html
 * add the selector for the nested component in the root component html
 * *ngIf to control display
-* [task_to_show] (nested variable) collects value from "selectedTask"
+* `[task_to_show]` (nested variable) collects value from `"selectedTask"` (root variable)
 ```html
 ...
 <app-task *ngIf="selectedTask" [taskToShow]="selectedTask"></app-task>
 ...
 ```
+
+##### /task/task.component.ts
+```javascript
+import { Component, OnInit, Input } from '@angular/core'; // add Input to our imports
+@Component({
+  selector: 'app-task',
+  templateUrl: './task.component.html',
+  stylesUrls: ['./task.component.css']
+})
+export class TaskComponent implements OnInit {
+  @Input() taskToShow: any;  // use the @Input decorator to indicate this comes from the parent
+  constructor() { }
+  ngOninit() { }
+}
+```
+
+##### task/task.component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDk0NjEwM119
+eyJoaXN0b3J5IjpbLTIwNTc4MDY3ODFdfQ==
 -->
