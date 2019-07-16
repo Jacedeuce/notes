@@ -55,15 +55,27 @@ module.exports = {
                 console.log(err)
             } else {
                 res.json({message: "deleted", "task" : task})
-     }
-
-})
-
-}
-
+            }
+        })
+    }
 }
 ```
+##### models.js
+```javascript
+const mongoose = require('mongoose')
 
+mongoose.connect('mongodb://localhost/restful_task_db')
+
+var TaskSchema =  new mongoose.Schema({
+    title : {type: String, required : true},
+    description : {type : String, default : ""},
+    completed : {type : Boolean, default : false}
+}, {timestamps : {createdAt : "created_at", updatedAt : "updated_at"}}
+)
+  
+module.exports = mongoose.model('Task', TaskSchema)
+```
+##### routes.js
 ##### Install Angular
 
 ```console
@@ -147,6 +159,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODg5NjA1MCwxMTMxMDgxMTY0LDQ3MD
-kzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTE2NTIyMzAwMjYsMTEzMTA4MTE2NCw0Nz
+A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
