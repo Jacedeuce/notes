@@ -4,6 +4,7 @@
 mkdir {{{project folder}}}
 cd {{{project folder}}}
 npm init -y
+npm install express body-parser mongoose
 touch server.js routes.js models.js controller.js
 ```
 ##### controller.js
@@ -241,6 +242,7 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MDg3MTIsLTE1NTE3ODE4MDQsMTEzMT
-A4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbLTEwMTg5MjMzMjEsNTg4MDg3MTIsLTE1NT
+E3ODE4MDQsMTEzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYz
+Ml19
 -->
