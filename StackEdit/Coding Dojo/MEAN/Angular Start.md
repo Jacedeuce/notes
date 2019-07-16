@@ -76,6 +76,42 @@ var TaskSchema =  new mongoose.Schema({
 module.exports = mongoose.model('Task', TaskSchema)
 ```
 ##### routes.js
+```javascript
+const controller = require("./controller")
+module.exports =  function(app){
+    app.get('/tasks', controller.tasks)
+    app.get('/tasks/:id', controller.show)
+    app.post('/tasks', controller.create)
+    app.put('/tasks/:id', controller.update)
+    app.delete('/tasks/:id', controller.delete)
+}
+```
+##### server.js
+```javascript
+const express = require('express')
+const bp = require("body-parser")
+
+var app = express()
+app.use(bp.json())
+app.use(bp.urlencoded({extended:true}))
+app.use(express.static( __dirname +  '/tasks/dist/tasks' ));
+
+require('./routes')(app)
+
+app.listen(8000, (err)=>{
+
+if (err){
+
+console.log(err)
+
+} else {
+
+console.log("listening on port 8000...")
+
+}
+
+})
+```
 ##### Install Angular
 
 ```console
@@ -159,6 +195,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIyMzAwMjYsMTEzMTA4MTE2NCw0Nz
-A5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbLTYwMjA5NDM1NCwxMTMxMDgxMTY0LDQ3MD
+kzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
