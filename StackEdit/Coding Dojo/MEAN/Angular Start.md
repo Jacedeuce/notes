@@ -2,6 +2,9 @@
 
 ```console
 mkdir {{{project folder}}}
+cd {{{project folder}}}
+npm init -y
+touch server.py routes.py models.py controller.py
 
 ##### Install Angular
 
@@ -86,6 +89,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI0MDYwMjcsMTEzMTA4MTE2NCw0Nz
+eyJoaXN0b3J5IjpbLTE3NjQ4NzgwNzAsMTEzMTA4MTE2NCw0Nz
 A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
