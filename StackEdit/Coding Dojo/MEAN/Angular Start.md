@@ -92,6 +92,7 @@ const express = require('express')
 const bp = require("body-parser")
 
 var app = express()
+
 app.use(bp.json())
 app.use(bp.urlencoded({extended:true}))
 app.use(express.static( __dirname +  '/tasks/dist/tasks' ));
@@ -99,18 +100,14 @@ app.use(express.static( __dirname +  '/tasks/dist/tasks' ));
 require('./routes')(app)
 
 app.listen(8000, (err)=>{
-
-if (err){
-
-console.log(err)
-
-} else {
-
-console.log("listening on port 8000...")
-
-}
-
+    if (err){
+        console.log(err)
+    } else {
+        console.log("listening on port 8000...")
+    }
 })
+
+
 ```
 ##### Install Angular
 
@@ -195,6 +192,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjA5NDM1NCwxMTMxMDgxMTY0LDQ3MD
-kzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTE1NTE3ODE4MDQsMTEzMTA4MTE2NCw0Nz
+A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
