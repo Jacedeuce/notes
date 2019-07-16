@@ -40,38 +40,22 @@ module.exports = {
             }
         })
     },
-
-update : (req, res) => {
-
-Task.findByIdAndUpdate({_id : req.params.id}, req.body, function(err, task){
-
-if (err) {
-
-console.log(err)
-
-} else {
-
-res.json({message: "updated", "task" : task})
-
-}
-
-})
-
-},
-
-delete : (req, res) => {
-
-Task.findByIdAndDelete({_id : req.params.id}, req.body, function(err, task){
-
-if (err) {
-
-console.log(err)
-
-} else {
-
-res.json({message: "deleted", "task" : task})
-
-}
+    update : (req, res) => {
+        Task.findByIdAndUpdate({_id : req.params.id}, req.body, function(err, task){
+            if (err) {
+                console.log(err)
+            } else {
+                res.json({message: "updated", "task" : task})
+            }
+        })
+    },
+    delete : (req, res) => {
+        Task.findByIdAndDelete({_id : req.params.id}, req.body, function(err, task){
+            if (err) {
+                console.log(err)
+            } else {
+                res.json({message: "deleted", "task" : task})
+     }
 
 })
 
@@ -163,6 +147,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUyNzgxMTYsMTEzMTA4MTE2NCw0Nz
-A5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbMTczODg5NjA1MCwxMTMxMDgxMTY0LDQ3MD
+kzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
