@@ -18,9 +18,13 @@ app tree:
 ├── tasks.service.spec.ts
 └── tasks.service.ts
 
-```javascript
-
+##### app.component.html
+* add the selector for the nested component in the root component html
+```html
+...
+<app-task></app-task>
+...
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDk2NjY3MV19
+eyJoaXN0b3J5IjpbMTk5NzI0ODM2OV19
 -->
