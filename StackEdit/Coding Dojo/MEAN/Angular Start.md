@@ -1,3 +1,8 @@
+### Set up Express backend
+
+```console
+mkdir {{{project folder}}}
+
 ##### Install Angular
 
 ```console
@@ -81,6 +86,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NT
-g4NjYzMl19
+eyJoaXN0b3J5IjpbLTE0NjI0MDYwMjcsMTEzMTA4MTE2NCw0Nz
+A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
