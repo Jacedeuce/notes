@@ -96,7 +96,7 @@ var app = express()
 
 app.use(bp.json())
 app.use(bp.urlencoded({extended:true}))
-app.use(express.static( __dirname +  '/tasks/dist/tasks' ));
+app.use(express.static( __dirname +  '/public/dist/public' ));
 
 require('./routes')(app)
 
@@ -242,7 +242,7 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg5MjMzMjEsNTg4MDg3MTIsLTE1NT
-E3ODE4MDQsMTEzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYz
-Ml19
+eyJoaXN0b3J5IjpbMjc1MzQ4NDE3LC0xMDE4OTIzMzIxLDU4OD
+A4NzEyLC0xNTUxNzgxODA0LDExMzEwODExNjQsNDcwOTM5OTIx
+LC02ODU4ODY2MzJdfQ==
 -->
