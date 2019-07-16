@@ -31,26 +31,15 @@ module.exports = {
         })
     },
     create : (req, res) => {
-
-console.log(req.body)
-
-Task.create(req.body, function(err, task){
-
-if (err) {
-
-console.log(err)
-
-} else {
-
-res.json({message: "created", "task" : task})
-
-}
-
-  
-
-})
-
-},
+        console.log(req.body)
+        Task.create(req.body, function(err, task){
+            if (err) {
+                console.log(err)
+            } else {
+                res.json({message: "created", "task" : task})
+            }
+        })
+    },
 
 update : (req, res) => {
 
@@ -174,6 +163,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTI4MDczOCwxMTMxMDgxMTY0LDQ3MD
-kzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTE1MDUyNzgxMTYsMTEzMTA4MTE2NCw0Nz
+A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
