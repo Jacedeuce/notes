@@ -221,7 +221,7 @@ export class TasksService {
 }
 ```
 ##### app.component.html
-```
+```typescript
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
 
@@ -240,8 +240,9 @@ export class TasksService {
         return this._http.get('/tasks/' + id)
     }
 }
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ3NjcyNjEsLTE1NTE3ODE4MDQsMT
-EzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbMTQxOTIxMzQxMiwtMTU1MTc4MTgwNCwxMT
+MxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
