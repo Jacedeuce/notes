@@ -14,30 +14,22 @@ module.exports = {
     tasks : (req, res) => {
         Task.find({}, function(err, tasks) {
             if (err) {
-                 console.log(err)
-             } else {
-                 res.json({'tasks': tasks})
-             }
+                console.log(err)
+            } else {
+                res.json({'tasks': tasks})
+            }
         })
     },
 
-show : (req, res) => {
-
-Task.findOne({_id : req.params.id}, function(err, task){
-
-if (err) {
-
-console.log(err)
-
-} else {
-
-res.json({'task':task})
-
-}
-
-})
-
-},
+    show : (req, res) => {
+        Task.findOne({_id : req.params.id}, function(err, task){
+            if (err) {
+                console.log(err)
+            } else {
+                res.json({'task':task})
+            }
+        })
+    },
 
 create : (req, res) => {
 
@@ -183,6 +175,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTUxMDQyOCwxMTMxMDgxMTY0LDQ3MD
-kzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTEyMjE2NTE2MDAsMTEzMTA4MTE2NCw0Nz
+A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
