@@ -4,7 +4,7 @@
 mkdir {{{project folder}}}
 cd {{{project folder}}}
 npm init -y
-touch server.py routes.py models.py controller.py
+touch server.js routes.js models.js controller.js
 ```
 ##### controller.js
 ```javascript
@@ -243,6 +243,6 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTIxMzQxMiwtMTU1MTc4MTgwNCwxMT
+eyJoaXN0b3J5IjpbLTM4Njk4MjU1NiwtMTU1MTc4MTgwNCwxMT
 MxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
