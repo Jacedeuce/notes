@@ -21,7 +21,7 @@ app tree:
 ##### app.component.html
 * add the selector for the nested component in the root component html
 * *ngIf to control display
-* `[task_to_show]` (nested variable) collects value from `"selectedTask"` (root variable)
+* `[task_to_show]` (nested variable) collects value from `"selectedTask"` (root variable) __note__: this is a one way connection
 ```html
 ...
 <app-task *ngIf="selectedTask" [taskToShow]="selectedTask"></app-task>
@@ -43,7 +43,11 @@ export class TaskComponent implements OnInit {
 }
 ```
 
-##### task/task.component
+##### task/task.component.html
+```html
+<h6>{{taskToShow.title}}</h6>
+<p>{{taskToShow.description}}</p>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc4MDY3ODFdfQ==
+eyJoaXN0b3J5IjpbNjAzNjk1MTczXX0=
 -->
