@@ -127,47 +127,79 @@ ng build --watch
 ##### Build a service
 
 ```
-ng g s [[service name]] (pokemon)
+ng g s [[service name]] (tasks)
 ```
 
 ##### app.component.ts
 ```typescript
 import { Component } from '@angular/core';
-import { PokemonService } from './pokemon.service' //add
+import { TasksService } from './tasks.service'
 
 @Component({
-selector: 'app-root',
-templateUrl: './app.component.html',
-styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
 })
-
 export class AppComponent {
-title = 'restful_tasks';
-constructor(private _pokemonService: PokemonService) {} //add
+    title = 'tasks';
+    tasks : Array<object>
+    one_task : object
+    constructor(private _tasksService: TasksService){}
+
+    ngOnInit(){
+        
+        this.title = "Restful Tasks"
+    }
+
+    return_tasks(){
+        this.get_tasks_from_service()
+    }
+
+    get_tasks_from_service(){
+        let observable = this._tasksService.get_tasks()
+        observable.subscribe(data => {
+            console.log("Tasks: ", data)
+            this.tasks = data['tasks']
+        })
+    }
+
+    do_this(id){
+        let observable = this._tasksService.get_one_task(id)
+        observable.subscribe(data => {
+            this.one_task = data['task']
+        })
+    }
+
+    select_change_handler(event: any){
+        let observable = this._tasksService.get_one_task(event.target.value)
+        observable.subscribe(data => {
+            this.one_task = data['task']
+        })
+    }
 }
 ```
 ##### app.module.ts
 ```typescript
-import { BrowserModule } from  '@angular/platform-browser';
-import { NgModule } from  '@angular/core';
-import { PokemonService } from  './pokemon.service'
-import { HttpClientModule } from  '@angular/common/http'
-import { AppComponent } from  './app.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { TasksService } from './tasks.service'
+import { HttpClientModule } from '@angular/common/http'
+import { AppComponent } from './app.component';
 
 @NgModule({
-    declarations: [
-        AppComponent
-    ],
-    imports: [
-        BrowserModule,
-        HttpClientModule
-    ],
-    providers: [PokemonService],
-    bootstrap: [AppComponent]
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule
+  ],
+  providers: [TasksService],
+  bootstrap: [AppComponent]
 })
-export  class AppModule { }
+export class AppModule { }
 ```
-##### pokemon.service.ts
+##### task.service.ts
 ```typescript
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
@@ -192,6 +224,6 @@ export class HttpService {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE3ODE4MDQsMTEzMTA4MTE2NCw0Nz
-A5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbMTAxNzM4NzEzMywtMTU1MTc4MTgwNCwxMT
+MxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
