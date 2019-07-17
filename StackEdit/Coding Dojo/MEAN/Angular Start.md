@@ -220,29 +220,12 @@ export class TasksService {
 }
 ```
 ##### app.component.html
-```typescript
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
+```html
 
-@Injectable({
-    providedIn: 'root'
-})
-export class TasksService {
-
-    constructor(private _http: HttpClient) {}
-
-    get_tasks() {
-        return this._http.get('/tasks')
-    }
-
-    get_one_task(id){
-        return this._http.get('/tasks/' + id)
-    }
-}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MzQ4NDE3LC0xMDE4OTIzMzIxLDU4OD
-A4NzEyLC0xNTUxNzgxODA0LDExMzEwODExNjQsNDcwOTM5OTIx
-LC02ODU4ODY2MzJdfQ==
+eyJoaXN0b3J5IjpbMTcwMzY5ODA3MiwyNzUzNDg0MTcsLTEwMT
+g5MjMzMjEsNTg4MDg3MTIsLTE1NTE3ODE4MDQsMTEzMTA4MTE2
+NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
