@@ -7,7 +7,43 @@ npm init -y
 npm install express body-parser mongoose
 touch server.js routes.js models.js controller.js
 ```
+##### server.js
+```javascript
+const express = require('express')
+const bp = require("body-parser")
 
+var app = express()
+
+app.use(bp.json())
+app.use(bp.urlencoded({extended:true}))
+app.use(express.static( __dirname +  '/public/dist/public' ));
+
+require('./routes')(app)
+
+app.listen(8000, (err)=>{
+    if (err){
+        console.log(err)
+    } else {
+        console.log("listening on port 8000...")
+    }
+})
+```
+##### routes.js
+```javascript
+const controller = require("./controller")
+module.exports =  function(app){
+    app.get('/tasks', controller.tasks)
+    app.get('/tasks/:id', controller.show)
+    app.post('/tasks', controller.create)
+    app.put('/tasks/:id', controller.update)
+    app.delete('/tasks/:id', controller.delete)
+    app.all("*", controller.all)
+}
+// this route will be triggered if any of the routes above did not match
+app.all("*", (req,res,next) => {
+  res.sendFile(path.resolve("./public/dist/public/index.html"))
+});
+```
 ##### controller.js
 ```javascript
 const Task = require("./models")
@@ -79,22 +115,8 @@ var TaskSchema =  new mongoose.Schema({
   
 module.exports = mongoose.model('Task', TaskSchema)
 ```
-##### routes.js
-```javascript
-const controller = require("./controller")
-module.exports =  function(app){
-    app.get('/tasks', controller.tasks)
-    app.get('/tasks/:id', controller.show)
-    app.post('/tasks', controller.create)
-    app.put('/tasks/:id', controller.update)
-    app.delete('/tasks/:id', controller.delete)
-    app.all("*", controller.all)
-}
-// this route will be triggered if any of the routes above did not match
-app.all("*", (req,res,next) => {
-  res.sendFile(path.resolve("./public/dist/public/index.html"))
-});
-```
+
+
 
 
 ##### Install Angular
@@ -214,8 +236,8 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI0Nzg0NTcsMTM0NjA0OTk3LDE3MD
-M2OTgwNzIsMjc1MzQ4NDE3LC0xMDE4OTIzMzIxLDU4ODA4NzEy
-LC0xNTUxNzgxODA0LDExMzEwODExNjQsNDcwOTM5OTIxLC02OD
-U4ODY2MzJdfQ==
+eyJoaXN0b3J5IjpbLTg2ODE1MTUzOSwtMTYwMjQ3ODQ1NywxMz
+Q2MDQ5OTcsMTcwMzY5ODA3MiwyNzUzNDg0MTcsLTEwMTg5MjMz
+MjEsNTg4MDg3MTIsLTE1NTE3ODE4MDQsMTEzMTA4MTE2NCw0Nz
+A5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
