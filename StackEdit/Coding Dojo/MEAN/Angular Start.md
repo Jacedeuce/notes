@@ -106,6 +106,8 @@ const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost/restful_task_db')
 
+mongoose.set('useFindAndModify', false);
+
 var TaskSchema =  new mongoose.Schema({
     title : {type: String, required : true},
     description : {type : String, default : ""},
@@ -236,8 +238,8 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODE1MTUzOSwtMTYwMjQ3ODQ1NywxMz
-Q2MDQ5OTcsMTcwMzY5ODA3MiwyNzUzNDg0MTcsLTEwMTg5MjMz
-MjEsNTg4MDg3MTIsLTE1NTE3ODE4MDQsMTEzMTA4MTE2NCw0Nz
-A5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbLTIwNjA0NDI2MjYsLTg2ODE1MTUzOSwtMT
+YwMjQ3ODQ1NywxMzQ2MDQ5OTcsMTcwMzY5ODA3MiwyNzUzNDg0
+MTcsLTEwMTg5MjMzMjEsNTg4MDg3MTIsLTE1NTE3ODE4MDQsMT
+EzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
 -->
