@@ -58,7 +58,8 @@ module.exports = {
                 res.json({message: "deleted", "task" : task})
             }
         })
-    }
+    },
+    
 }
 ```
 ##### models.js
@@ -85,7 +86,12 @@ module.exports =  function(app){
     app.post('/tasks', controller.create)
     app.put('/tasks/:id', controller.update)
     app.delete('/tasks/:id', controller.delete)
+    app.all("*", controller.all)
 }
+// this route will be triggered if any of the routes above did not match
+app.all("*", (req,res,next) => {
+  res.sendFile(path.resolve("./public/dist/public/index.html"))
+});
 ```
 ##### server.js
 ```javascript
@@ -225,7 +231,7 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzY5ODA3MiwyNzUzNDg0MTcsLTEwMT
-g5MjMzMjEsNTg4MDg3MTIsLTE1NTE3ODE4MDQsMTEzMTA4MTE2
-NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbLTU3MjE1MzY2OSwxNzAzNjk4MDcyLDI3NT
+M0ODQxNywtMTAxODkyMzMyMSw1ODgwODcxMiwtMTU1MTc4MTgw
+NCwxMTMxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
