@@ -59,8 +59,9 @@ module.exports = {
             }
         })
     },
-    
-}
+    all : (req,res,next) => {
+	  res.sendFile(path.resolve("./public/dist/public/index.html"))
+    }
 ```
 ##### models.js
 ```javascript
@@ -231,7 +232,7 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjE1MzY2OSwxNzAzNjk4MDcyLDI3NT
-M0ODQxNywtMTAxODkyMzMyMSw1ODgwODcxMiwtMTU1MTc4MTgw
-NCwxMTMxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbNjc0ODI4MzI4LDE3MDM2OTgwNzIsMjc1Mz
+Q4NDE3LC0xMDE4OTIzMzIxLDU4ODA4NzEyLC0xNTUxNzgxODA0
+LDExMzEwODExNjQsNDcwOTM5OTIxLC02ODU4ODY2MzJdfQ==
 -->
