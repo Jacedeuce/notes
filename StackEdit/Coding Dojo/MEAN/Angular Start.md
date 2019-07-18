@@ -89,7 +89,7 @@ module.exports = {
         })
     },
     delete : (req, res) => {
-        Task.findByIdAndDelete({_id : req.params.id}, req.body, function(err, task){
+        Task.findByIdAndDelete({_id : req.params.id}, req.body, {newfunction(err, task){
             if (err) {
                 console.log(err)
             } else {
@@ -239,9 +239,9 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTQ2OTQyMSwtMjA2MDQ0MjYyNiwtOD
-Y4MTUxNTM5LC0xNjAyNDc4NDU3LDEzNDYwNDk5NywxNzAzNjk4
-MDcyLDI3NTM0ODQxNywtMTAxODkyMzMyMSw1ODgwODcxMiwtMT
-U1MTc4MTgwNCwxMTMxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2
-NjMyXX0=
+eyJoaXN0b3J5IjpbLTE3MDkyMDE0MjIsMTM2NTQ2OTQyMSwtMj
+A2MDQ0MjYyNiwtODY4MTUxNTM5LC0xNjAyNDc4NDU3LDEzNDYw
+NDk5NywxNzAzNjk4MDcyLDI3NTM0ODQxNywtMTAxODkyMzMyMS
+w1ODgwODcxMiwtMTU1MTc4MTgwNCwxMTMxMDgxMTY0LDQ3MDkz
+OTkyMSwtNjg1ODg2NjMyXX0=
 -->
