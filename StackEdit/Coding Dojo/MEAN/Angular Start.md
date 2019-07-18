@@ -60,7 +60,7 @@ module.exports = {
         })
     },
     all : (req,res,next) => {
-	  res.sendFile(path.resolve("./public/dist/public/index.html"))
+	  res.send("Sorry, this page doesn't exist"))
     }
 ```
 ##### models.js
@@ -232,7 +232,7 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc0ODI4MzI4LDE3MDM2OTgwNzIsMjc1Mz
+eyJoaXN0b3J5IjpbMTM0NjA0OTk3LDE3MDM2OTgwNzIsMjc1Mz
 Q4NDE3LC0xMDE4OTIzMzIxLDU4ODA4NzEyLC0xNTUxNzgxODA0
 LDExMzEwODExNjQsNDcwOTM5OTIxLC02ODU4ODY2MzJdfQ==
 -->
