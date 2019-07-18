@@ -31,13 +31,14 @@ app.listen(8000, (err)=>{
 ##### routes.js
 ```javascript
 const controller = require("./controller")
-module.exports =  function(app){
-    app.get('/tasks', controller.tasks)
-    app.get('/tasks/:id', controller.show)
-    app.post('/tasks', controller.create)
-    app.put('/tasks/:id', controller.update)
-    app.delete('/tasks/:id', controller.delete)
-    app.all("*", controller.all)
+
+module.exports = function(app){
+    app.get('/api/authors', controller.authors)
+    app.get('/api/authors/:id', controller.author)
+    app.post('/api/authors', controller.create)
+    app.put('/api/authors/:id', controller.update)
+    app.delete('/api/authors/:id', controller.delete)
+    app.all("*", controller.all) // Typing into the nav bar and hitting enter or making the browser refresh will trigger the Express routes first and Angular routes second.
 }
 // this route will be triggered if any of the routes above did not match
 app.all("*", (req,res,next) => {
@@ -238,8 +239,9 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA0NDI2MjYsLTg2ODE1MTUzOSwtMT
-YwMjQ3ODQ1NywxMzQ2MDQ5OTcsMTcwMzY5ODA3MiwyNzUzNDg0
-MTcsLTEwMTg5MjMzMjEsNTg4MDg3MTIsLTE1NTE3ODE4MDQsMT
-EzMTA4MTE2NCw0NzA5Mzk5MjEsLTY4NTg4NjYzMl19
+eyJoaXN0b3J5IjpbMTM2NTQ2OTQyMSwtMjA2MDQ0MjYyNiwtOD
+Y4MTUxNTM5LC0xNjAyNDc4NDU3LDEzNDYwNDk5NywxNzAzNjk4
+MDcyLDI3NTM0ODQxNywtMTAxODkyMzMyMSw1ODgwODcxMiwtMT
+U1MTc4MTgwNCwxMTMxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2
+NjMyXX0=
 -->
