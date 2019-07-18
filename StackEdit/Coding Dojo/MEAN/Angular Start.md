@@ -80,7 +80,7 @@ module.exports = {
         })
     },
     update : (req, res) => {
-        Task.findByIdAndUpdate({_id : req.params.id}, req.body, function(err, task){
+        Task.findByIdAndUpdate({_id : req.params.id}, req.body, {new: true}, function(err, task){
             if (err) {
                 console.log(err)
             } else {
@@ -89,7 +89,7 @@ module.exports = {
         })
     },
     delete : (req, res) => {
-        Task.findByIdAndDelete({_id : req.params.id}, req.body, {newfunction(err, task){
+        Task.findByIdAndDelete({_id : req.params.id}, req.body, function(err, task){
             if (err) {
                 console.log(err)
             } else {
@@ -239,9 +239,9 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkyMDE0MjIsMTM2NTQ2OTQyMSwtMj
-A2MDQ0MjYyNiwtODY4MTUxNTM5LC0xNjAyNDc4NDU3LDEzNDYw
-NDk5NywxNzAzNjk4MDcyLDI3NTM0ODQxNywtMTAxODkyMzMyMS
-w1ODgwODcxMiwtMTU1MTc4MTgwNCwxMTMxMDgxMTY0LDQ3MDkz
-OTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTg0Mzc2NDY4MSwxMzY1NDY5NDIxLC0yMD
+YwNDQyNjI2LC04NjgxNTE1MzksLTE2MDI0Nzg0NTcsMTM0NjA0
+OTk3LDE3MDM2OTgwNzIsMjc1MzQ4NDE3LC0xMDE4OTIzMzIxLD
+U4ODA4NzEyLC0xNTUxNzgxODA0LDExMzEwODExNjQsNDcwOTM5
+OTIxLC02ODU4ODY2MzJdfQ==
 -->
