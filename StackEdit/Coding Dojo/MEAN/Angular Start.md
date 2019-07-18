@@ -7,6 +7,7 @@ npm init -y
 npm install express body-parser mongoose
 touch server.js routes.js models.js controller.js
 ```
+
 ##### controller.js
 ```javascript
 const Task = require("./models")
@@ -94,27 +95,8 @@ app.all("*", (req,res,next) => {
   res.sendFile(path.resolve("./public/dist/public/index.html"))
 });
 ```
-##### server.js
-```javascript
-const express = require('express')
-const bp = require("body-parser")
 
-var app = express()
 
-app.use(bp.json())
-app.use(bp.urlencoded({extended:true}))
-app.use(express.static( __dirname +  '/public/dist/public' ));
-
-require('./routes')(app)
-
-app.listen(8000, (err)=>{
-    if (err){
-        console.log(err)
-    } else {
-        console.log("listening on port 8000...")
-    }
-})
-```
 ##### Install Angular
 
 ```console
@@ -232,7 +214,8 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjA0OTk3LDE3MDM2OTgwNzIsMjc1Mz
-Q4NDE3LC0xMDE4OTIzMzIxLDU4ODA4NzEyLC0xNTUxNzgxODA0
-LDExMzEwODExNjQsNDcwOTM5OTIxLC02ODU4ODY2MzJdfQ==
+eyJoaXN0b3J5IjpbLTE2MDI0Nzg0NTcsMTM0NjA0OTk3LDE3MD
+M2OTgwNzIsMjc1MzQ4NDE3LC0xMDE4OTIzMzIxLDU4ODA4NzEy
+LC0xNTUxNzgxODA0LDExMzEwODExNjQsNDcwOTM5OTIxLC02OD
+U4ODY2MzJdfQ==
 -->
