@@ -105,9 +105,10 @@ module.exports = {
 ```javascript
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost/restful_task_db')
+mongoose.connect('mongodb://localhost/restful_task_db', {useNewUrlParser : true})
 
 mongoose.set('useFindAndModify', false);
+mongoose.set('useCreateIndex', true) //https://github.com/Automattic/mongoose/issues/6890
 
 var TaskSchema =  new mongoose.Schema({
     title : {type: String, required : true},
@@ -239,9 +240,9 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Mzc2NDY4MSwxMzY1NDY5NDIxLC0yMD
-YwNDQyNjI2LC04NjgxNTE1MzksLTE2MDI0Nzg0NTcsMTM0NjA0
-OTk3LDE3MDM2OTgwNzIsMjc1MzQ4NDE3LC0xMDE4OTIzMzIxLD
-U4ODA4NzEyLC0xNTUxNzgxODA0LDExMzEwODExNjQsNDcwOTM5
-OTIxLC02ODU4ODY2MzJdfQ==
+eyJoaXN0b3J5IjpbMjM3NjE5NzM5LC04NDM3NjQ2ODEsMTM2NT
+Q2OTQyMSwtMjA2MDQ0MjYyNiwtODY4MTUxNTM5LC0xNjAyNDc4
+NDU3LDEzNDYwNDk5NywxNzAzNjk4MDcyLDI3NTM0ODQxNywtMT
+AxODkyMzMyMSw1ODgwODcxMiwtMTU1MTc4MTgwNCwxMTMxMDgx
+MTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
 -->
