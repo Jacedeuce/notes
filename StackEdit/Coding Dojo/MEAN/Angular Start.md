@@ -46,6 +46,7 @@ app.all("*", (req,res,next) => {
 });
 ```
 ##### controller.js
+[How to send text or change status codes in response](https://blog.fullstacktraining.com/res-json-vs-res-send-vs-res-end-in-express/)
 ```javascript
 const Task = require("./models")
 
@@ -240,9 +241,10 @@ export class TasksService {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NjE5NzM5LC04NDM3NjQ2ODEsMTM2NT
-Q2OTQyMSwtMjA2MDQ0MjYyNiwtODY4MTUxNTM5LC0xNjAyNDc4
-NDU3LDEzNDYwNDk5NywxNzAzNjk4MDcyLDI3NTM0ODQxNywtMT
-AxODkyMzMyMSw1ODgwODcxMiwtMTU1MTc4MTgwNCwxMTMxMDgx
-MTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX0=
+eyJoaXN0b3J5IjpbLTEwMTc4NTMwMDksMjM3NjE5NzM5LC04ND
+M3NjQ2ODEsMTM2NTQ2OTQyMSwtMjA2MDQ0MjYyNiwtODY4MTUx
+NTM5LC0xNjAyNDc4NDU3LDEzNDYwNDk5NywxNzAzNjk4MDcyLD
+I3NTM0ODQxNywtMTAxODkyMzMyMSw1ODgwODcxMiwtMTU1MTc4
+MTgwNCwxMTMxMDgxMTY0LDQ3MDkzOTkyMSwtNjg1ODg2NjMyXX
+0=
 -->
