@@ -62,6 +62,8 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 
 *  [TMUX Cheatsheet]([https://gist.github.com/andreyvit/2921703](https://gist.github.com/andreyvit/2921703))
 
+### Vim
+[Display Python help in Vim](https://www.cyberciti.biz/faq/how-to-access-view-python-help-when-using-vim/)
   
 
 ### Python setup
@@ -96,5 +98,5 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 
 ![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzQ1MTE5M119
+eyJoaXN0b3J5IjpbMTkxMDY5OTc0NF19
 -->
