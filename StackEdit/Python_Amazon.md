@@ -112,8 +112,10 @@ fish = ['Goldy', 'Finny']
 
 pets.append(fish)
 #print(pets)
-print("I have 3 pets named {0}, {1}, and {2}, as well as 2 fish named {3[0]} and {3[1]}.").format(*petr 
+print("I have 3 pets named {0}, {1}, and {2}, as well as 2 fish named {3[0]} and {3[1]}.").format(*pets) 
+```
+[output]: I have 3 pets named Max, Garfield, and Spot, as well as 2 fish named Goldy and Finny.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3NDg3Mjc3LC0xMTc2Mzc5ODI0LDE5MT
-A2OTk3NDRdfQ==
+eyJoaXN0b3J5IjpbLTQyOTk4MDU2MSwtMTE3NjM3OTgyNCwxOT
+EwNjk5NzQ0XX0=
 -->
