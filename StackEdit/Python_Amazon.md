@@ -99,11 +99,16 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 ![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
 
 ### I learned:
+* String formatting with lists
 ```python
 >>> octets = [192, 168, 0, 1]
 >>> '{:02X}{:02X}{:02X}{:02X}'.format(*octets)
 [output]: 'C0A80001'
 ```
+also
+```python
+pets = ['Max', 'Garfield', 'Spot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzYzNzk4MjQsMTkxMDY5OTc0NF19
+eyJoaXN0b3J5IjpbMTg1MjU5MzczLC0xMTc2Mzc5ODI0LDE5MT
+A2OTk3NDRdfQ==
 -->
