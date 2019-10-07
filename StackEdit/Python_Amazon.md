@@ -107,8 +107,13 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 ```
 also
 ```python
-pets = ['Max', 'Garfield', 'Spot
+pets = ['Max', 'Garfield', 'Spot']
+fish = ['Goldy', 'Finny']
+
+pets.append(fish)
+#print(pets)
+print("I have 3 pets named {0}, {1}, and {2}, as well as 2 fish named {3[0]} and {3[1]}.").format(*petr 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjU5MzczLC0xMTc2Mzc5ODI0LDE5MT
+eyJoaXN0b3J5IjpbNTM3NDg3Mjc3LC0xMTc2Mzc5ODI0LDE5MT
 A2OTk3NDRdfQ==
 -->
