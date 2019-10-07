@@ -97,6 +97,13 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 * up to lab 9 skipping 1-3
 
 ![](https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif)
+
+### I learned:
+```python
+>>> octets = [192, 168, 0, 1]
+>>> '{:02X}{:02X}{:02X}{:02X}'.format(*octets)
+[output]: 'C0A80001'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDY5OTc0NF19
+eyJoaXN0b3J5IjpbLTExNzYzNzk4MjQsMTkxMDY5OTc0NF19
 -->
