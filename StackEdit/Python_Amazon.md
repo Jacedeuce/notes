@@ -40,6 +40,8 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 
 * Static: [https://labs.alta3.com/static/napya-401-bchd/](https://labs.alta3.com/static/napya-401-bchd/)
 
+* GUI: https://labs.alta3.com/?path=view/napya-401-bchd
+
 * examples: [https://labs.alta3.com/static/napya-394-bchd/](https://labs.alta3.com/static/napya-394-bchd/)
 
   
@@ -115,7 +117,10 @@ pets.append(fish)
 print("I have 3 pets named {0}, {1}, and {2}, as well as 2 fish named {3[0]} and {3[1]}.").format(*pets) 
 ```
 [output]: I have 3 pets named Max, Garfield, and Spot, as well as 2 fish named Goldy and Finny.
+
+
+https://labs.alta3.com/?path=view/napya-401-bchd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTk4MDU2MSwtMTE3NjM3OTgyNCwxOT
-EwNjk5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTEyODQ3MTEwOTAsLTQyOTk4MDU2MSwtMT
+E3NjM3OTgyNCwxOTEwNjk5NzQ0XX0=
 -->
