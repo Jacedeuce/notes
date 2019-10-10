@@ -4,7 +4,7 @@
 
 ## Set Up
 
-  
+  [Join Meeting](https://zoom.us/w/973718255?tk=Sq2CJeufiHroOrJ7uwJO2wS1ZCQureZI7zkCsn_a-Z8.DQEAAAAAOgnC7xZSZGNZZjYzUFR5V0QxNE5hbnhqcmhnAA)
 
 ### Instructor
 
@@ -121,6 +121,6 @@ print("I have 3 pets named {0}, {1}, and {2}, as well as 2 fish named {3[0]} and
 
 https://labs.alta3.com/?path=view/napya-401-bchd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ3MTEwOTAsLTQyOTk4MDU2MSwtMT
-E3NjM3OTgyNCwxOTEwNjk5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTc2MTc2NDgwMCwtMTI4NDcxMTA5MCwtND
+I5OTgwNTYxLC0xMTc2Mzc5ODI0LDE5MTA2OTk3NDRdfQ==
 -->
