@@ -120,7 +120,12 @@ print("I have 3 pets named {0}, {1}, and {2}, as well as 2 fish named {3[0]} and
 
 
 https://labs.alta3.com/?path=view/napya-401-bchd
+
+## Day 4
+### Lab 34
+* https://test.pypi.org/project/example-pkg-jacedeuce/0.0.1/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTc2NDgwMCwtMTI4NDcxMTA5MCwtND
-I5OTgwNTYxLC0xMTc2Mzc5ODI0LDE5MTA2OTk3NDRdfQ==
+eyJoaXN0b3J5IjpbNDc3NDkwMDk3LC03NjE3NjQ4MDAsLTEyOD
+Q3MTEwOTAsLTQyOTk4MDU2MSwtMTE3NjM3OTgyNCwxOTEwNjk5
+NzQ0XX0=
 -->
