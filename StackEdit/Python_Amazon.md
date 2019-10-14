@@ -124,8 +124,11 @@ https://labs.alta3.com/?path=view/napya-401-bchd
 ## Day 4
 ### Lab 34
 * https://test.pypi.org/project/example-pkg-jacedeuce/0.0.2/
+
+## Day 6
+(?P<two>\b\w{2}\b)|(?P<three>\b\w{3}\b)|(?P<four>\b\w{4}\b)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjI1NDU3OCw0Nzc0OTAwOTcsLTc2MT
-c2NDgwMCwtMTI4NDcxMTA5MCwtNDI5OTgwNTYxLC0xMTc2Mzc5
-ODI0LDE5MTA2OTk3NDRdfQ==
+eyJoaXN0b3J5IjpbLTEyNDgyNTUyLDE3MjIyNTQ1NzgsNDc3ND
+kwMDk3LC03NjE3NjQ4MDAsLTEyODQ3MTEwOTAsLTQyOTk4MDU2
+MSwtMTE3NjM3OTgyNCwxOTEwNjk5NzQ0XX0=
 -->
