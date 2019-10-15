@@ -43,6 +43,9 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 * GUI: https://labs.alta3.com/?path=view/napya-401-bchd
 
 * examples: [https://labs.alta3.com/static/napya-394-bchd/](https://labs.alta3.com/static/napya-394-bchd/)
+#### Collect my work:
+```console
+$ tar -zcvf [target] [dir]
 
   
 
@@ -129,8 +132,8 @@ https://labs.alta3.com/?path=view/napya-401-bchd
 ## Day 6
 (?P<two>\b\w{2}\b)|(?P<three>\b\w{3}\b)|(?P<four>\b\w{4}\b)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjAxODcwNjAsLTEyNDgyNTUyLDE3Mj
-IyNTQ1NzgsNDc3NDkwMDk3LC03NjE3NjQ4MDAsLTEyODQ3MTEw
-OTAsLTQyOTk4MDU2MSwtMTE3NjM3OTgyNCwxOTEwNjk5NzQ0XX
-0=
+eyJoaXN0b3J5IjpbLTkwMTQ0MTE1MSwtMTI2MDE4NzA2MCwtMT
+I0ODI1NTIsMTcyMjI1NDU3OCw0Nzc0OTAwOTcsLTc2MTc2NDgw
+MCwtMTI4NDcxMTA5MCwtNDI5OTgwNTYxLC0xMTc2Mzc5ODI0LD
+E5MTA2OTk3NDRdfQ==
 -->
