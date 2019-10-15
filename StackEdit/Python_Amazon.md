@@ -66,6 +66,7 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 
 ### Vim
 [Display Python help in Vim](https://www.cyberciti.biz/faq/how-to-access-view-python-help-when-using-vim/)
+[Set vim tabs to spaces](https://howchoo.com/g/m2u0nthkyti/vim-convert-tabs-to-spaces)
   
 
 ### Python setup
@@ -128,7 +129,8 @@ https://labs.alta3.com/?path=view/napya-401-bchd
 ## Day 6
 (?P<two>\b\w{2}\b)|(?P<three>\b\w{3}\b)|(?P<four>\b\w{4}\b)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgyNTUyLDE3MjIyNTQ1NzgsNDc3ND
-kwMDk3LC03NjE3NjQ4MDAsLTEyODQ3MTEwOTAsLTQyOTk4MDU2
-MSwtMTE3NjM3OTgyNCwxOTEwNjk5NzQ0XX0=
+eyJoaXN0b3J5IjpbLTEyNjAxODcwNjAsLTEyNDgyNTUyLDE3Mj
+IyNTQ1NzgsNDc3NDkwMDk3LC03NjE3NjQ4MDAsLTEyODQ3MTEw
+OTAsLTQyOTk4MDU2MSwtMTE3NjM3OTgyNCwxOTEwNjk5NzQ0XX
+0=
 -->
