@@ -73,6 +73,8 @@ $ tar -zcvf [target] [dir]
 
 [Set vim tabs to spaces](https://howchoo.com/g/m2u0nthkyti/vim-convert-tabs-to-spaces)
 > in .vimrc
+```
+set tabstop=2 shiftwidth=2 expandtab
 ```  
 
 ### Python setup
@@ -135,7 +137,7 @@ https://labs.alta3.com/?path=view/napya-401-bchd
 ## Day 6
 (?P<two>\b\w{2}\b)|(?P<three>\b\w{3}\b)|(?P<four>\b\w{4}\b)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDYwMDIwNiwtOTAxNDQxMTUxLC0xMj
+eyJoaXN0b3J5IjpbLTg0NTA0ODQ0NCwtOTAxNDQxMTUxLC0xMj
 YwMTg3MDYwLC0xMjQ4MjU1MiwxNzIyMjU0NTc4LDQ3NzQ5MDA5
 NywtNzYxNzY0ODAwLC0xMjg0NzExMDkwLC00Mjk5ODA1NjEsLT
 ExNzYzNzk4MjQsMTkxMDY5OTc0NF19
