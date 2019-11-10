@@ -46,7 +46,7 @@ International numbers available: [https://zoom.us/u/acjTDDE5QG](https://zoom.us/
 #### Collect my work:
 ```console
 $ tar -zcvf [target] [dir]
-
+```
   
 
 ### TMUX
@@ -69,8 +69,11 @@ $ tar -zcvf [target] [dir]
 
 ### Vim
 [Display Python help in Vim](https://www.cyberciti.biz/faq/how-to-access-view-python-help-when-using-vim/)
+> Position cursor under the print Python keyword and press Shift followed by H.
+
 [Set vim tabs to spaces](https://howchoo.com/g/m2u0nthkyti/vim-convert-tabs-to-spaces)
-  
+> in .vimrc
+```  
 
 ### Python setup
 
@@ -132,8 +135,8 @@ https://labs.alta3.com/?path=view/napya-401-bchd
 ## Day 6
 (?P<two>\b\w{2}\b)|(?P<three>\b\w{3}\b)|(?P<four>\b\w{4}\b)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTQ0MTE1MSwtMTI2MDE4NzA2MCwtMT
-I0ODI1NTIsMTcyMjI1NDU3OCw0Nzc0OTAwOTcsLTc2MTc2NDgw
-MCwtMTI4NDcxMTA5MCwtNDI5OTgwNTYxLC0xMTc2Mzc5ODI0LD
-E5MTA2OTk3NDRdfQ==
+eyJoaXN0b3J5IjpbMTY3NDYwMDIwNiwtOTAxNDQxMTUxLC0xMj
+YwMTg3MDYwLC0xMjQ4MjU1MiwxNzIyMjU0NTc4LDQ3NzQ5MDA5
+NywtNzYxNzY0ODAwLC0xMjg0NzExMDkwLC00Mjk5ODA1NjEsLT
+ExNzYzNzk4MjQsMTkxMDY5OTc0NF19
 -->
