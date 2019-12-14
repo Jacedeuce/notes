@@ -7,10 +7,10 @@ Will I find you when the night is over?
 Tell me where did you go?  
 I've been searching high and low  
 I have only 'til the night is over  
-In every window I pass  
 
 **[4 Bars]**
 
+In every window I pass  
 Your reflection in the glass  
 Makes me wonder if my mind is going  
 Shadows shifting in the rain  
@@ -42,5 +42,5 @@ By the stars above, I know we were in love
 I hear the river say your name  
 I have only 'til the night is over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDAwOTUzOF19
+eyJoaXN0b3J5IjpbODE1MjYyOTE0XX0=
 -->
