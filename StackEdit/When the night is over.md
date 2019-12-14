@@ -1,3 +1,6 @@
+
+[8 Bars]
+
 My one and only love  
 I've been lonely long enough  
 Will I find you when the night is over?  
@@ -15,11 +18,13 @@ Slowly driving me insane
 By the stars above, I know we were in love  
 I have only 'til the night is over  
 
+[ Bars
+
 I feel the weather change  
 I hear the river say your name 
 
- I watch the birds fly by  
- I see an emerald in the sky  
+I watch the birds fly by  
+I see an emerald in the sky  
 
 Now the trail has gone cold  
 I don't know where else to go  
@@ -28,7 +33,14 @@ When the ocean drinks the sky
 And the city winks its eye  
 When the night is done, you'll vanish in the sun  
 Will I hold you when the night is over?  
-Am I lost inside my mind?  There's an emerald in the sky  I hear the river say your name  By the stars above, I know we were in love  I hear the river say your name  I have only 'til the night is over
+
+Am I lost inside my mind?  
+There's an emerald in the sky  
+
+I hear the river say your name  
+By the stars above, I know we were in love  
+I hear the river say your name  
+I have only 'til the night is over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjcxODA0MzJdfQ==
+eyJoaXN0b3J5IjpbLTE3OTkxMTA4ODldfQ==
 -->
