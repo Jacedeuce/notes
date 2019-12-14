@@ -1,5 +1,5 @@
 
-[8 Bars]
+**[8 Bars]**
 
 My one and only love  
 I've been lonely long enough  
@@ -9,7 +9,7 @@ I've been searching high and low
 I have only 'til the night is over  
 In every window I pass  
 
-[4 Bars]
+**[4 Bars]**
 
 Your reflection in the glass  
 Makes me wonder if my mind is going  
@@ -18,13 +18,13 @@ Slowly driving me insane
 By the stars above, I know we were in love  
 I have only 'til the night is over  
 
-[ Bars
-
 I feel the weather change  
 I hear the river say your name 
 
 I watch the birds fly by  
 I see an emerald in the sky  
+
+**[20 Bars]**
 
 Now the trail has gone cold  
 I don't know where else to go  
@@ -42,5 +42,5 @@ By the stars above, I know we were in love
 I hear the river say your name  
 I have only 'til the night is over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTkxMTA4ODldfQ==
+eyJoaXN0b3J5IjpbMTQwNDAwOTUzOF19
 -->
